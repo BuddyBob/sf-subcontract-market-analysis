@@ -101,7 +101,7 @@ The remaining 135 markets show severe concentration
 ---
 
 
-## 📁 **Files for Further Analysis**
+## **Files for Further Analysis**
 
 ### **Primary Analysis Files**:
 1. **`market_concentration_hhi_consolidated.csv`** - Which markets are concentrated and how 
