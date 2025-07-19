@@ -1,142 +1,142 @@
 ScopeOfWork,ScopeHHI,NumSubcontractors,ScopeTotalSub,ConcentrationLevel
-"""Tarqe"" down piles",10000.0,1,254190.0,Highly Concentrated
-"2, 3, 10, 11, 16, 17, 19",10000.0,1,299765.0,Highly Concentrated
-"9A, 15B, Parcel",10000.0,1,700000.0,Highly Concentrated
-AC & Grinding,10000.0,1,179000.0,Highly Concentrated
-AC Paving & Asphalt Work (Consolidated),3906.701727705163,5,13212611.0,Highly Concentrated
-Asphalt,10000.0,1,925985.0,Highly Concentrated
-"Asphalt, Planing, Paving",10000.0,1,946450.0,Highly Concentrated
-"B/1 SW4,8-13,20 & 32",10000.0,1,63702.0,Highly Concentrated
-Bid Item 15B Partial,10000.0,1,43900.0,Highly Concentrated
-Bid Item 17 (Partial),10000.0,1,10000.0,Highly Concentrated
-Bid Item 6,10000.0,1,615000.0,Highly Concentrated
-Bid Item 7,10000.0,1,30000.0,Highly Concentrated
-Bid Item R-19,10000.0,1,43471.0,Highly Concentrated
-"Bid Items 3, 5B, 6A, 16A and 16B",10000.0,1,230000.0,Highly Concentrated
-Bid Items 6 & 7,10000.0,1,12000.0,Highly Concentrated
-Bypass,10000.0,1,387500.0,Highly Concentrated
-CCTV,10000.0,1,122600.0,Highly Concentrated
-Cast in place Concrete (Partial),10000.0,1,161690.0,Highly Concentrated
-Cathodic protection,10000.0,1,10500.0,Highly Concentrated
-"Chain link and agricultural fences, Gates",10000.0,1,641025.0,Highly Concentrated
-Civil (Partial),10000.0,1,752000.0,Highly Concentrated
-"Civil, Utilities",10000.0,1,168700.0,Highly Concentrated
-Coating,3620.8071538076924,4,1102350.0,Highly Concentrated
-Coating and lining work,10000.0,1,250000.0,Highly Concentrated
-Coating/Painting,10000.0,1,10000.0,Highly Concentrated
-Conc. Flatwork & Large MH Bases,10000.0,1,236408.0,Highly Concentrated
-Concrete Work (Consolidated),2013.0714243164489,17,31040513.5,Moderately Concentrated
-Crack repair (partial),10000.0,1,175000.0,Highly Concentrated
-Crane and rigging,10000.0,1,11000.0,Highly Concentrated
-Curtain Wall & Glazing,10000.0,1,166600.0,Highly Concentrated
-D2 & D3 (partial),10000.0,1,150000.0,Highly Concentrated
-"Demo (partial), excavation (partial)",10000.0,1,210000.0,Highly Concentrated
-Demolition/Brushing,10000.0,1,122790.0,Highly Concentrated
-Did not list,10000.0,1,497000.0,Highly Concentrated
-Drilling,5949.079442755016,2,354408.0,Highly Concentrated
-Drywall,10000.0,1,120947.0,Highly Concentrated
-Earth Work,10000.0,1,673729.0,Highly Concentrated
-"Earthwork, piping, grinder, pump, sewage",10000.0,1,168700.0,Highly Concentrated
-Electrical Work (Consolidated),3342.372266710385,11,35225329.0,Highly Concentrated
-Engineering & Design Services (Consolidated),1888.3351212510763,9,5875944.0,Moderately Concentrated
-Excavation,10000.0,1,600000.0,Highly Concentrated
-FCF Pad & Priest Portal Walls,10000.0,1,1300000.0,Highly Concentrated
-Fiber Optics,10000.0,1,318765.0,Highly Concentrated
-Flatwork and Mill & Fill,10000.0,1,860000.0,Highly Concentrated
-Furnish and install protective coatings,10000.0,1,616328.0,Highly Concentrated
-Geotechnical instrumentation,10000.0,1,250000.0,Highly Concentrated
-Geotechnical work,10000.0,1,626000.0,Highly Concentrated
-Glazing,10000.0,1,166600.0,Highly Concentrated
-Grind & Pave,10000.0,1,512380.0,Highly Concentrated
-Grinding,5585.78442412504,2,29800.0,Highly Concentrated
-Grinding & Paving,6229.897125746198,2,3059300.0,Highly Concentrated
-"Grinding, Paving",10000.0,1,558000.0,Highly Concentrated
-Ground Improvements,10000.0,1,603600.0,Highly Concentrated
-HASP/SWPPP,10000.0,1,135000.0,Highly Concentrated
-HVAC,7424.724458017542,2,1739015.0,Highly Concentrated
-Haz Haul (as needed),10000.0,1,20000.0,Highly Concentrated
+Electrical Work (Consolidated),3342.0,11,35225329.0,Highly Concentrated
+Concrete Work (Consolidated),2013.0,17,31040514.0,Moderately Concentrated
+Pipeline & Sewer Work (Consolidated),1541.0,15,22540072.0,Moderately Concentrated
+Micro tunneling,3681.0,3,22171120.0,Highly Concentrated
+Traffic Control & Sawcutting (Consolidated),1771.0,14,14276559.0,Moderately Concentrated
+AC Paving & Asphalt Work (Consolidated),3907.0,5,13212611.0,Highly Concentrated
+Structural Work (Consolidated),2270.0,11,9040591.0,Moderately Concentrated
 "Items - 35, 36, 37, 38, 39, 40, 41, 42, 43",10000.0,1,7040083.0,Highly Concentrated
-"Items 36, 37, 38, 49, 40",10000.0,1,159899.0,Highly Concentrated
-Jackson outfall bulkhead,10000.0,1,60786.0,Highly Concentrated
-Jet Grouting,10000.0,1,300000.0,Highly Concentrated
-Large Manhole Base,10000.0,1,20000.0,Highly Concentrated
-Lining,10000.0,1,28240.0,Highly Concentrated
-Lining & Manhole Mortar,10000.0,1,228840.0,Highly Concentrated
-Lining mortar,10000.0,1,277439.0,Highly Concentrated
-Manhole Mortaring,10000.0,1,50450.0,Highly Concentrated
-Materials Testing and Inspection Services,10000.0,1,12335.0,Highly Concentrated
+Trucking & Hauling (Consolidated),1174.0,15,6368804.0,Unconcentrated
+Tunneling,10000.0,1,6187000.0,Highly Concentrated
+Tunnel/microtunnel,10000.0,1,5927200.0,Highly Concentrated
+Engineering & Design Services (Consolidated),1888.0,9,5875944.0,Moderately Concentrated
+Pipe jacking and microtunneling,10000.0,1,5500000.0,Highly Concentrated
+WTS Systems (Bid Item #2 and #3),10000.0,1,3977601.0,Highly Concentrated
+"Supply/Install Vaults (partial), FTB",10000.0,1,3800000.0,Highly Concentrated
+Grinding & Paving,6230.0,2,3059300.0,Highly Concentrated
+R1-R20 Concreate,10000.0,1,2200000.0,Highly Concentrated
+Mill & Fill,5010.0,2,1811984.0,Highly Concentrated
+HVAC,7425.0,2,1739015.0,Highly Concentrated
+Shoring,10000.0,1,1695000.0,Highly Concentrated
+Unknown/Unspecified Scope,5004.0,2,1498746.0,Highly Concentrated
+Painting & Coating,5326.0,3,1381605.0,Highly Concentrated
+FCF Pad & Priest Portal Walls,10000.0,1,1300000.0,Highly Concentrated
+Coating,3621.0,4,1102350.0,Highly Concentrated
+"Asphalt, Planing, Paving",10000.0,1,946450.0,Highly Concentrated
+Asphalt,10000.0,1,925985.0,Highly Concentrated
+Flatwork and Mill & Fill,10000.0,1,860000.0,Highly Concentrated
+Not listed,5002.0,2,814207.0,Highly Concentrated
+"SW-4 (5-10 Partial), PR 1, 4-11, 15, 16",10000.0,1,800000.0,Highly Concentrated
+Saw Cutting,3359.0,3,799225.0,Highly Concentrated
+Civil (Partial),10000.0,1,752000.0,Highly Concentrated
+Modulars,10000.0,1,747572.0,Highly Concentrated
+"9A, 15B, Parcel",10000.0,1,700000.0,Highly Concentrated
+Earth Work,10000.0,1,673729.0,Highly Concentrated
+"Chain link and agricultural fences, Gates",10000.0,1,641025.0,Highly Concentrated
+Geotechnical work,10000.0,1,626000.0,Highly Concentrated
+Furnish and install protective coatings,10000.0,1,616328.0,Highly Concentrated
+Bid Item 6,10000.0,1,615000.0,Highly Concentrated
+Paving,5605.0,2,613484.0,Highly Concentrated
+Torque Down Piles,3612.0,3,605546.0,Highly Concentrated
+Ground Improvements,10000.0,1,603600.0,Highly Concentrated
 Materials Testing and Special Inspections Services (QC Services),10000.0,1,600000.0,Highly Concentrated
-Medium Voltage Terminations,10000.0,1,207650.0,Highly Concentrated
-Metal Fabrications,10000.0,1,175000.0,Highly Concentrated
-Metal Framing & Drywall,10000.0,1,101672.0,Highly Concentrated
-Micro tunneling,3680.9398390588035,3,22171120.0,Highly Concentrated
-Mill & Fill,5009.9708021530605,2,1811984.0,Highly Concentrated
-Milling & Filling,10000.0,1,78950.0,Highly Concentrated
-Misc Metals,10000.0,1,19980.0,Highly Concentrated
-Miscellaneous metal work,10000.0,1,49700.0,Highly Concentrated
+Excavation,10000.0,1,600000.0,Highly Concentrated
+Paving & AWSS,10000.0,1,597000.0,Highly Concentrated
+Pavement Restoration,10000.0,1,592900.0,Highly Concentrated
+"Grinding, Paving",10000.0,1,558000.0,Highly Concentrated
+Grind & Pave,10000.0,1,512380.0,Highly Concentrated
+Did not list,10000.0,1,497000.0,Highly Concentrated
+Stone Columns,10000.0,1,450000.0,Highly Concentrated
+Piles,5078.0,2,445666.0,Highly Concentrated
+No info,5902.0,2,438000.0,Highly Concentrated
+Bypass,10000.0,1,387500.0,Highly Concentrated
 Modular Bldgs + Ramps,10000.0,1,370530.0,Highly Concentrated
 Modular Offices & Ramps,10000.0,1,367786.0,Highly Concentrated
-Modulars,10000.0,1,747572.0,Highly Concentrated
-Mortaring Work,10000.0,1,76934.0,Highly Concentrated
-NETA Testing,10000.0,1,270000.0,Highly Concentrated
-No info,5901.670106961906,2,438000.0,Highly Concentrated
-Not listed,5002.161986617009,2,814206.75,Highly Concentrated
-P1-P5,10000.0,1,50000.0,Highly Concentrated
-PR Bid Items,10000.0,1,261650.0,Highly Concentrated
-Painting,10000.0,1,249394.0,Highly Concentrated
-Painting & Coating,5326.467723385282,3,1381605.0,Highly Concentrated
-Partial excavation and backfill,10000.0,1,80000.0,Highly Concentrated
-Partial saw cutting,10000.0,1,70000.0,Highly Concentrated
-Pavement Restoration,10000.0,1,592900.0,Highly Concentrated
-Paving,5605.472170259479,2,613484.0,Highly Concentrated
-Paving & AWSS,10000.0,1,597000.0,Highly Concentrated
-Paving/Exc,10000.0,1,25500.0,Highly Concentrated
-Phase II ESA/Soil Profiling,10000.0,1,57800.0,Highly Concentrated
-Piles,5078.00654251594,2,445666.0,Highly Concentrated
-Pipe jacking and microtunneling,10000.0,1,5500000.0,Highly Concentrated
-"Pipe, Irrigation, Tags",10000.0,1,200000.0,Highly Concentrated
-Pipeline & Sewer Work (Consolidated),1541.2799709621058,15,22540072.0,Moderately Concentrated
-Plumbing,4657.534333672911,3,240825.0,Highly Concentrated
+Drilling,5949.0,2,354408.0,Highly Concentrated
 Plumbing & Contract Management,10000.0,1,337000.0,Highly Concentrated
-QC,10000.0,1,50000.0,Highly Concentrated
-R1-R20 Concreate,10000.0,1,2200000.0,Highly Concentrated
-Raise Manholes to Grade & Stockpile Management,10000.0,1,30000.0,Highly Concentrated
+Fiber Optics,10000.0,1,318765.0,Highly Concentrated
 Rebar,10000.0,1,303922.0,Highly Concentrated
-Roofing,10000.0,1,92500.0,Highly Concentrated
-"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",5174.5407068645945,2,247060.0,Highly Concentrated
-"SW-32-Partial, SW-33-Partial, SW-40-Partial",10000.0,1,252500.0,Highly Concentrated
-"SW-4 (5-10 Partial), PR 1, 4-11, 15, 16",10000.0,1,800000.0,Highly Concentrated
+Jet Grouting,10000.0,1,300000.0,Highly Concentrated
+"2, 3, 10, 11, 16, 17, 19",10000.0,1,299765.0,Highly Concentrated
 "SW-4, SW-7 to SW-14",10000.0,1,277439.0,Highly Concentrated
-"SW-5, 13, 14, 15, 26",10000.0,1,92314.0,Highly Concentrated
-"SW-5, 13, 14, 15, 26, 34",10000.0,1,92000.0,Highly Concentrated
-"SW-5, 13. 14",10000.0,1,92314.0,Highly Concentrated
-SW-8 Bases Only,10000.0,1,49000.0,Highly Concentrated
-Saw Cutting,3358.622939722426,3,799225.0,Highly Concentrated
-Saw Cutting - Partial,10000.0,1,31250.0,Highly Concentrated
+Lining mortar,10000.0,1,277439.0,Highly Concentrated
+NETA Testing,10000.0,1,270000.0,Highly Concentrated
+PR Bid Items,10000.0,1,261650.0,Highly Concentrated
+"""Tarqe"" down piles",10000.0,1,254190.0,Highly Concentrated
+"SW-32-Partial, SW-33-Partial, SW-40-Partial",10000.0,1,252500.0,Highly Concentrated
+Streetbase,10000.0,1,250000.0,Highly Concentrated
+Geotechnical instrumentation,10000.0,1,250000.0,Highly Concentrated
+Coating and lining work,10000.0,1,250000.0,Highly Concentrated
+Painting,10000.0,1,249394.0,Highly Concentrated
+"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",5175.0,2,247060.0,Highly Concentrated
+Plumbing,4658.0,3,240825.0,Highly Concentrated
+Conc. Flatwork & Large MH Bases,10000.0,1,236408.0,Highly Concentrated
+"Bid Items 3, 5B, 6A, 16A and 16B",10000.0,1,230000.0,Highly Concentrated
+Lining & Manhole Mortar,10000.0,1,228840.0,Highly Concentrated
+"Demo (partial), excavation (partial)",10000.0,1,210000.0,Highly Concentrated
+Medium Voltage Terminations,10000.0,1,207650.0,Highly Concentrated
+"Pipe, Irrigation, Tags",10000.0,1,200000.0,Highly Concentrated
 Sawcut,10000.0,1,200000.0,Highly Concentrated
-Scaffold,10000.0,1,44813.68,Highly Concentrated
-Shoring,10000.0,1,1695000.0,Highly Concentrated
-Shotcrete,10000.0,1,131250.0,Highly Concentrated
+AC & Grinding,10000.0,1,179000.0,Highly Concentrated
+Metal Fabrications,10000.0,1,175000.0,Highly Concentrated
+Crack repair (partial),10000.0,1,175000.0,Highly Concentrated
+"Earthwork, piping, grinder, pump, sewage",10000.0,1,168700.0,Highly Concentrated
+"Civil, Utilities",10000.0,1,168700.0,Highly Concentrated
+Glazing,10000.0,1,166600.0,Highly Concentrated
+Curtain Wall & Glazing,10000.0,1,166600.0,Highly Concentrated
+Cast in place Concrete (Partial),10000.0,1,161690.0,Highly Concentrated
+"Items 36, 37, 38, 49, 40",10000.0,1,159899.0,Highly Concentrated
 "Site Work, Bldg Pad, Utilities",10000.0,1,155450.0,Highly Concentrated
+D2 & D3 (partial),10000.0,1,150000.0,Highly Concentrated
+HASP/SWPPP,10000.0,1,135000.0,Highly Concentrated
+Shotcrete,10000.0,1,131250.0,Highly Concentrated
+Demolition/Brushing,10000.0,1,122790.0,Highly Concentrated
+CCTV,10000.0,1,122600.0,Highly Concentrated
+Drywall,10000.0,1,120947.0,Highly Concentrated
+Metal Framing & Drywall,10000.0,1,101672.0,Highly Concentrated
+Sweeping & Equipment rental,10000.0,1,100000.0,Highly Concentrated
+Welding,10000.0,1,100000.0,Highly Concentrated
+Roofing,10000.0,1,92500.0,Highly Concentrated
+"SW-5, 13, 14, 15, 26",10000.0,1,92314.0,Highly Concentrated
+"SW-5, 13. 14",10000.0,1,92314.0,Highly Concentrated
+"SW-5, 13, 14, 15, 26, 34",10000.0,1,92000.0,Highly Concentrated
+Partial excavation and backfill,10000.0,1,80000.0,Highly Concentrated
+Milling & Filling,10000.0,1,78950.0,Highly Concentrated
+Mortaring Work,10000.0,1,76934.0,Highly Concentrated
 Soil Sampling,10000.0,1,74000.0,Highly Concentrated
 Special Inspection - Partials,10000.0,1,70150.0,Highly Concentrated
+Partial saw cutting,10000.0,1,70000.0,Highly Concentrated
+"B/1 SW4,8-13,20 & 32",10000.0,1,63702.0,Highly Concentrated
+Jackson outfall bulkhead,10000.0,1,60786.0,Highly Concentrated
+Phase II ESA/Soil Profiling,10000.0,1,57800.0,Highly Concentrated
+Manhole Mortaring,10000.0,1,50450.0,Highly Concentrated
+P1-P5,10000.0,1,50000.0,Highly Concentrated
+QC,10000.0,1,50000.0,Highly Concentrated
+Miscellaneous metal work,10000.0,1,49700.0,Highly Concentrated
+SW-8 Bases Only,10000.0,1,49000.0,Highly Concentrated
+Tree Removal,10000.0,1,47100.0,Highly Concentrated
+Scaffold,10000.0,1,44814.0,Highly Concentrated
+Bid Item 15B Partial,10000.0,1,43900.0,Highly Concentrated
+Bid Item R-19,10000.0,1,43471.0,Highly Concentrated
 Special Paving,10000.0,1,43470.0,Highly Concentrated
 Special Paving at Crosswalk,10000.0,1,43470.0,Highly Concentrated
-Stone Columns,10000.0,1,450000.0,Highly Concentrated
-Streetbase,10000.0,1,250000.0,Highly Concentrated
-Structural Work (Consolidated),2269.550920251706,11,9040591.0,Moderately Concentrated
-"Supply/Install Vaults (partial), FTB",10000.0,1,3800000.0,Highly Concentrated
-Sweeping & Equipment rental,10000.0,1,100000.0,Highly Concentrated
+Tree Removal & Disposal,5000.0,2,41600.0,Highly Concentrated
+Saw Cutting - Partial,10000.0,1,31250.0,Highly Concentrated
+Raise Manholes to Grade & Stockpile Management,10000.0,1,30000.0,Highly Concentrated
+Bid Item 7,10000.0,1,30000.0,Highly Concentrated
+Grinding,5586.0,2,29800.0,Highly Concentrated
+Lining,10000.0,1,28240.0,Highly Concentrated
+Paving/Exc,10000.0,1,25500.0,Highly Concentrated
+Haz Haul (as needed),10000.0,1,20000.0,Highly Concentrated
+Large Manhole Base,10000.0,1,20000.0,Highly Concentrated
+Misc Metals,10000.0,1,19980.0,Highly Concentrated
+Materials Testing and Inspection Services,10000.0,1,12335.0,Highly Concentrated
+Bid Items 6 & 7,10000.0,1,12000.0,Highly Concentrated
+Crane and rigging,10000.0,1,11000.0,Highly Concentrated
+Cathodic protection,10000.0,1,10500.0,Highly Concentrated
+Bid Item 17 (Partial),10000.0,1,10000.0,Highly Concentrated
+Coating/Painting,10000.0,1,10000.0,Highly Concentrated
 Temp Wildlife Exclusion Fence (Bid Item C-3),10000.0,1,6292.0,Highly Concentrated
 Testing,10000.0,1,3000.0,Highly Concentrated
-Torque Down Piles,3611.5279307779297,3,605546.0,Highly Concentrated
-Traffic Control & Sawcutting (Consolidated),1770.5868771019825,14,14276558.75,Moderately Concentrated
-Tree Removal,10000.0,1,47100.0,Highly Concentrated
-Tree Removal & Disposal,5000.0,2,41600.0,Highly Concentrated
-Trucking & Hauling (Consolidated),1173.5472101201299,15,6368804.47,Unconcentrated
-Tunnel/microtunnel,10000.0,1,5927200.0,Highly Concentrated
-Tunneling,10000.0,1,6187000.0,Highly Concentrated
-Unknown/Unspecified Scope,5004.456792010295,2,1498746.0,Highly Concentrated
-WTS Systems (Bid Item #2 and #3),10000.0,1,3977601.0,Highly Concentrated
-Welding,10000.0,1,100000.0,Highly Concentrated
 Wildlife Exclusion Fence,10000.0,1,1642.0,Highly Concentrated
