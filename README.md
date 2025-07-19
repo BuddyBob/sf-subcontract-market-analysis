@@ -3,8 +3,6 @@
 Understand market dynamics of San Francisco's public construction subcontracting landscape, focusing on concentration, competition, and equity for Local Business Enterprises (LBEs).
 
 
-Public construction dollars should stimulate broad participation, competitive pricing, and equitable opportunity (especially for Local Business Enterprises — LBEs). 
-
 Raw scope labels (contracts) are often inconsistent (“AC Paving”, “AC paving”, “AC Paving & Concrete flatwork”…), artificially inflating the appearance of monopolies or hiding real concentration. 
 
 ---
