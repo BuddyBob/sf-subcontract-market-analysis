@@ -1,256 +1,114 @@
 ScopeOfWork,SubcontractorName,TotalSubAmount,ContractsCount,ScopeTotalSub,ShareOfScope
-Electrical Work (Consolidated),Cupertino Electric Inc.,18787407.0,0,35225329.0,0.5333
-Electrical Work (Consolidated),Big Valley Electric,5872222.0,0,35225329.0,0.1667
-Electrical Work (Consolidated),Schrader Mechanical Inc.,4485162.0,0,35225329.0,0.1273
-Electrical Work (Consolidated),Frisch Engineering,1436600.0,0,35225329.0,0.0408
-Electrical Work (Consolidated),Liffey Electric,1428000.0,0,35225329.0,0.0405
-Electrical Work (Consolidated),"Barri Electric Company, Inc.",1300000.0,0,35225329.0,0.0369
-Electrical Work (Consolidated),Baytech Engineering,1069000.0,0,35225329.0,0.0303
-Electrical Work (Consolidated),"Blocka Construction, Inc.",282000.0,0,35225329.0,0.008
-Electrical Work (Consolidated),"Mark Olson Electric, Inc.",273938.0,0,35225329.0,0.0078
-Electrical Work (Consolidated),Bowers Electric,269000.0,0,35225329.0,0.0076
-Electrical Work (Consolidated),Bay Area Lightworks Inc,22000.0,0,35225329.0,0.0006
-Concrete Work (Consolidated),R&S Construction Management Inc,12075292.0,0,31040514.0,0.389
-Concrete Work (Consolidated),On The Level Concrete,3800688.0,0,31040514.0,0.1224
-Concrete Work (Consolidated),Rk Engineering,3791731.0,0,31040514.0,0.1222
-Concrete Work (Consolidated),Basset Engineering,2521633.0,0,31040514.0,0.0812
-Concrete Work (Consolidated),Rands Construction Management Inc,2280561.0,0,31040514.0,0.0735
-Concrete Work (Consolidated),Ronald R Nelson Contractor Inc.,1912000.0,0,31040514.0,0.0616
-Concrete Work (Consolidated),RK Engineering ,1308480.0,0,31040514.0,0.0422
-Concrete Work (Consolidated),"Ronan Construction, Inc.",1028450.0,0,31040514.0,0.0331
-Concrete Work (Consolidated),RK Engineering,948700.0,0,31040514.0,0.0306
-Concrete Work (Consolidated),Roadway Construction Inc.,545000.0,0,31040514.0,0.0176
-Concrete Work (Consolidated),Daly Pipelines Inc.,297000.0,0,31040514.0,0.0096
-Concrete Work (Consolidated),Hernandez Engineering,172000.0,0,31040514.0,0.0055
-Concrete Work (Consolidated),Geo-Cell Solutions,100000.0,0,31040514.0,0.0032
-Concrete Work (Consolidated),LC General Engineering,77000.0,0,31040514.0,0.0025
-Concrete Work (Consolidated),Fontenoy Engineering,65000.0,0,31040514.0,0.0021
-Concrete Work (Consolidated),Cell-crete Corporation,59978.0,0,31040514.0,0.0019
-Concrete Work (Consolidated),Con Foam,57000.0,0,31040514.0,0.0018
-Pipeline & Sewer Work (Consolidated),Cratus Inc.,6979884.0,0,22540072.0,0.3097
-Pipeline & Sewer Work (Consolidated),"Kroner Environmental Services, Inc.",3268963.0,0,22540072.0,0.145
-Pipeline & Sewer Work (Consolidated),Fontenoy Engineering,2572812.0,0,22540072.0,0.1141
-Pipeline & Sewer Work (Consolidated),"Renesco, Inc.",1901249.0,0,22540072.0,0.0843
-Pipeline & Sewer Work (Consolidated),G2 Metal Fab,1801245.0,0,22540072.0,0.0799
-Pipeline & Sewer Work (Consolidated),Michael O'Shaughnessy Construction,1675946.0,0,22540072.0,0.0744
-Pipeline & Sewer Work (Consolidated),CIW and Sons Plumbing,756000.0,0,22540072.0,0.0335
-Pipeline & Sewer Work (Consolidated),Pipe & Plant Solutions,716446.0,0,22540072.0,0.0318
-Pipeline & Sewer Work (Consolidated),Nor-Cal Pipeline Services,674538.0,0,22540072.0,0.0299
-Pipeline & Sewer Work (Consolidated),Pioneer Contractors Inc.,660630.0,0,22540072.0,0.0293
-Pipeline & Sewer Work (Consolidated),Christian Brothers Lining Co,607179.0,0,22540072.0,0.0269
-Pipeline & Sewer Work (Consolidated),Daly Pipelines Inc.,400000.0,0,22540072.0,0.0177
-Pipeline & Sewer Work (Consolidated),"Sheeron Pipeline, Inc.",270000.0,0,22540072.0,0.012
-Pipeline & Sewer Work (Consolidated),Watertight Restoration,165000.0,0,22540072.0,0.0073
-Pipeline & Sewer Work (Consolidated),Basset Engineering,90180.0,0,22540072.0,0.004
-Micro tunneling,Nada Pacific Corporation,10751325.0,0,22171120.0,0.4849
-Micro tunneling,Ward & Burke Tunneling,5977200.0,0,22171120.0,0.2696
-Micro tunneling,Primoris Services Corporation Vadnais Trenchless Services Inc,5442595.0,0,22171120.0,0.2455
-Traffic Control & Sawcutting (Consolidated),CMC Traffic Control Specialists,3876500.0,0,14276559.0,0.2715
-Traffic Control & Sawcutting (Consolidated),Total Traffic Control Inc.,3557000.0,0,14276559.0,0.2491
-Traffic Control & Sawcutting (Consolidated),"Ronan Construction, Inc.",2077569.0,0,14276559.0,0.1455
-Traffic Control & Sawcutting (Consolidated),Bay Engineering,1428000.0,0,14276559.0,0.1
-Traffic Control & Sawcutting (Consolidated),CMC Traffic Control Specialists ,1073240.0,0,14276559.0,0.0752
-Traffic Control & Sawcutting (Consolidated),M. Hernandez Construction Inc. DBA Hernandez Engineering,650000.0,0,14276559.0,0.0455
-Traffic Control & Sawcutting (Consolidated),Hernandez Engineering,479500.0,0,14276559.0,0.0336
-Traffic Control & Sawcutting (Consolidated),Bay Line Cutting & Coring Inc,273000.0,0,14276559.0,0.0191
-Traffic Control & Sawcutting (Consolidated),JR Monterrosa Inc,260000.0,0,14276559.0,0.0182
-Traffic Control & Sawcutting (Consolidated),Sullivan's Concrete Sawing,220000.0,0,14276559.0,0.0154
-Traffic Control & Sawcutting (Consolidated),"Pacific Engineering & Construction, Inc.",215000.0,0,14276559.0,0.0151
-Traffic Control & Sawcutting (Consolidated),Fontenoy Engineering,95300.0,0,14276559.0,0.0067
-Traffic Control & Sawcutting (Consolidated),Bay-Con Infrastructure,51450.0,0,14276559.0,0.0036
-Traffic Control & Sawcutting (Consolidated),CMC Traffic Control Specialists  ,20000.0,0,14276559.0,0.0014
-AC Paving & Asphalt Work (Consolidated),Roadway Construction Inc.,6539920.0,0,13212611.0,0.495
-AC Paving & Asphalt Work (Consolidated),"Ronan Construction, Inc.",4867400.0,0,13212611.0,0.3684
-AC Paving & Asphalt Work (Consolidated),Radius Earthwork Inc,1210000.0,0,13212611.0,0.0916
-AC Paving & Asphalt Work (Consolidated),Esquivel Grading & Paving,517960.0,0,13212611.0,0.0392
-AC Paving & Asphalt Work (Consolidated),Interstate Grading and Paving,77331.0,0,13212611.0,0.0059
-Structural Work (Consolidated),"Alta Group, Inc.",3285970.0,0,9040591.0,0.3635
-Structural Work (Consolidated),Cody Builders Supply,1900000.0,0,9040591.0,0.2102
-Structural Work (Consolidated),Weldway Steel Fabrication,1866454.0,0,9040591.0,0.2065
-Structural Work (Consolidated),"MC Metal, Inc.",497000.0,0,9040591.0,0.055
-Structural Work (Consolidated),Bannon Construction Inc.,355914.0,0,9040591.0,0.0394
-Structural Work (Consolidated),Fontenoy Engineering,352253.0,0,9040591.0,0.039
-Structural Work (Consolidated),Ronald R Nelson Contractor Inc.,300000.0,0,9040591.0,0.0332
-Structural Work (Consolidated),"Anco Iron & Construction, Inc.",170000.0,0,9040591.0,0.0188
-Structural Work (Consolidated),"Silverado Contractors, Inc.",168800.0,0,9040591.0,0.0187
-Structural Work (Consolidated),Ahlborn Structural Steel,109200.0,0,9040591.0,0.0121
-Structural Work (Consolidated),Win Structural Consulting,35000.0,0,9040591.0,0.0039
-"Items - 35, 36, 37, 38, 39, 40, 41, 42, 43",Apex Rockfall Mitigation LLC,7040083.0,0,7040083.0,1.0
-Trucking & Hauling (Consolidated),Camajani Trucking,1370000.0,0,6368804.0,0.2151
-Trucking & Hauling (Consolidated),Cobra Trucking,1148500.0,0,6368804.0,0.1803
-Trucking & Hauling (Consolidated),Crana Trucking,775000.0,0,6368804.0,0.1217
-Trucking & Hauling (Consolidated),San Francisco Transport,450000.0,0,6368804.0,0.0707
-Trucking & Hauling (Consolidated),Coastside Service LLC,400000.0,0,6368804.0,0.0628
-Trucking & Hauling (Consolidated),Rogers Trucks,395000.0,0,6368804.0,0.062
-Trucking & Hauling (Consolidated),Cranon Tucking,350456.0,0,6368804.0,0.055
-Trucking & Hauling (Consolidated),S&S Trucking,301312.0,0,6368804.0,0.0473
-Trucking & Hauling (Consolidated),Accurate Earthworks Inc.,250000.0,0,6368804.0,0.0393
-Trucking & Hauling (Consolidated),RDS Trucking,221760.0,0,6368804.0,0.0348
-Trucking & Hauling (Consolidated),Clohina Trucking,206976.0,0,6368804.0,0.0325
-Trucking & Hauling (Consolidated),Wrights Trucking LLC,184800.0,0,6368804.0,0.029
-Trucking & Hauling (Consolidated),Philip Bettney Trucking Inc.,150000.0,0,6368804.0,0.0236
-Trucking & Hauling (Consolidated),Walter J Transportation & Logistics,140000.0,0,6368804.0,0.022
-Trucking & Hauling (Consolidated),HVYW8,25000.0,0,6368804.0,0.0039
-Tunneling,Ward & Burke Tunneling,6187000.0,0,6187000.0,1.0
-Tunnel/microtunnel,Ward & Burke Tunneling,5927200.0,0,5927200.0,1.0
-Engineering & Design Services (Consolidated),TRC Solutions Inc,1703000.0,0,5875944.0,0.2898
-Engineering & Design Services (Consolidated),GHD Inc,1531744.0,0,5875944.0,0.2607
-Engineering & Design Services (Consolidated),"Pacific Engineering & Construction, Inc.",650000.0,0,5875944.0,0.1106
-Engineering & Design Services (Consolidated),AGS Inc,615000.0,0,5875944.0,0.1047
-Engineering & Design Services (Consolidated),BKF Engineers,440000.0,0,5875944.0,0.0749
-Engineering & Design Services (Consolidated),Langan Engineering,407600.0,0,5875944.0,0.0694
-Engineering & Design Services (Consolidated),KCA Engineers Inc,288600.0,0,5875944.0,0.0491
-Engineering & Design Services (Consolidated),Telamon Engineering Consultants Inc,140000.0,0,5875944.0,0.0238
-Engineering & Design Services (Consolidated),Transpac Engineering,100000.0,0,5875944.0,0.017
-Pipe jacking and microtunneling,Ward & Burke Tunneling,5500000.0,0,5500000.0,1.0
-WTS Systems (Bid Item #2 and #3),"Clear Water Compliance, LLC (DBA Clear Water Services)",3977601.0,0,3977601.0,1.0
-"Supply/Install Vaults (partial), FTB",Marinship Development Interest LLC,3800000.0,0,3800000.0,1.0
-Grinding & Paving,Roadway Construction Inc.,2288300.0,0,3059300.0,0.748
-Grinding & Paving,"Ronan Construction, Inc.",771000.0,0,3059300.0,0.252
-R1-R20 Concreate,R&S Construction Management Inc,2200000.0,0,2200000.0,1.0
-Mill & Fill,Roman Construction,946450.0,0,1811984.0,0.5223
-Mill & Fill,"Ronan Construction, Inc.",865534.0,0,1811984.0,0.4777
-HVAC,"Blocka Construction, Inc.",1475015.0,0,1739015.0,0.8482
-HVAC,Bullard's Heating & Air,264000.0,0,1739015.0,0.1518
-Shoring,"Blue Iron Foundations and Shoring, LLC",1695000.0,0,1695000.0,1.0
-Unknown/Unspecified Scope,Municon West Coast,771746.0,0,1498746.0,0.5149
-Unknown/Unspecified Scope,Ronald R Nelson Contractor Inc.,727000.0,0,1498746.0,0.4851
-Painting & Coating,Certified Coatings Company,900405.0,0,1381605.0,0.6517
-Painting & Coating,Murphy Industrial Coatings,453000.0,0,1381605.0,0.3279
-Painting & Coating,Jeffco Painting & Coating Inc.,28200.0,0,1381605.0,0.0204
-FCF Pad & Priest Portal Walls,Geostructural Engineering Inc.,1300000.0,0,1300000.0,1.0
-Coating,Murphy Industrial Coatings,482000.0,0,1102350.0,0.4372
-Coating,Jeffco Painting & Coating Inc.,420000.0,0,1102350.0,0.381
-Coating,Redwood Painting Co Inc.,175000.0,0,1102350.0,0.1588
-Coating,FD Thomas Inc.,25350.0,0,1102350.0,0.023
-"Asphalt, Planing, Paving","Ronan Construction, Inc.",946450.0,0,946450.0,1.0
-Asphalt,QA Constructors ,925985.0,0,925985.0,1.0
-Flatwork and Mill & Fill,R&S Construction Management Inc,860000.0,0,860000.0,1.0
-Not listed,"Ronan Construction, Inc.",415569.0,0,814207.0,0.5104
-Not listed,RK Engineering,398638.0,0,814207.0,0.4896
-"SW-4 (5-10 Partial), PR 1, 4-11, 15, 16",RK Engineering,800000.0,0,800000.0,1.0
-Saw Cutting,Lou's Concrete Sawing & Breaking,299225.0,0,799225.0,0.3744
-Saw Cutting,Bay Line Cutting & Coring Inc,250000.0,0,799225.0,0.3128
-Saw Cutting,JR Monterrosa Inc,250000.0,0,799225.0,0.3128
-Civil (Partial),"Azul Works, Inc.",752000.0,0,752000.0,1.0
-Modulars,"Global Modular, Inc.",747572.0,0,747572.0,1.0
-"9A, 15B, Parcel","Devaney Engineering, Inc.",700000.0,0,700000.0,1.0
-Earth Work,Mission Constructors Inc,673729.0,0,673729.0,1.0
-"Chain link and agricultural fences, Gates","Ranch Fence, Inc.",641025.0,0,641025.0,1.0
-Geotechnical work,Municon West Coast,626000.0,0,626000.0,1.0
-Furnish and install protective coatings,National Coating & Lining,616328.0,0,616328.0,1.0
-Bid Item 6,Rogers Trucks,615000.0,0,615000.0,1.0
-Paving,"Ronan Construction, Inc.",413484.0,0,613484.0,0.674
-Paving,Roadway Construction Inc.,200000.0,0,613484.0,0.326
-Torque Down Piles,Drill Tech Drilling & Shoring,250666.0,0,605546.0,0.414
-Torque Down Piles,Foundation Constructors,235000.0,0,605546.0,0.3881
-Torque Down Piles,Substructural Support Inc (A Drill Tech Company),119880.0,0,605546.0,0.198
-Ground Improvements,"Condon-Johnson & Associates, Inc",603600.0,0,603600.0,1.0
-Excavation,Harty Pipeline Inc.,600000.0,0,600000.0,1.0
-Materials Testing and Special Inspections Services (QC Services),"Apex Testing Laboratories, Inc.",600000.0,0,600000.0,1.0
-Paving & AWSS,"Ronan Construction, Inc.",597000.0,0,597000.0,1.0
-Pavement Restoration,Basset Engineering,592900.0,0,592900.0,1.0
-"Grinding, Paving","Ronan Construction, Inc.",558000.0,0,558000.0,1.0
-Grind & Pave,Roadway Construction Inc.,512380.0,0,512380.0,1.0
-Did not list,"MC Metal, Inc.",497000.0,0,497000.0,1.0
-Stone Columns,Hayward Baker Inc,450000.0,0,450000.0,1.0
-Piles,Drill Tech Drilling & Shoring,250666.0,0,445666.0,0.5625
-Piles,"Foundation Pile, Inc.",195000.0,0,445666.0,0.4375
-No info,"Condon-Johnson & Associates, Inc",312000.0,0,438000.0,0.7123
-No info,Marinship Development Interest LLC,126000.0,0,438000.0,0.2877
-Bypass,Pipe & Plant Solutions,387500.0,0,387500.0,1.0
-Modular Bldgs + Ramps,"Global Modular, Inc.",370530.0,0,370530.0,1.0
-Modular Offices & Ramps,"Global Modular, Inc.",367786.0,0,367786.0,1.0
-Drilling,Canepa and Sons Inc,254408.0,0,354408.0,0.7178
-Drilling,Ace Drilling & Exc.,100000.0,0,354408.0,0.2822
-Plumbing & Contract Management,Kearney Plumbing,337000.0,0,337000.0,1.0
-Fiber Optics,Point One Electrical Systems Inc.,318765.0,0,318765.0,1.0
-Rebar,Rebar International,303922.0,0,303922.0,1.0
-Jet Grouting,"Condon-Johnson & Associates, Inc",300000.0,0,300000.0,1.0
-"2, 3, 10, 11, 16, 17, 19",Hernandez Engineering,299765.0,0,299765.0,1.0
-Lining mortar,Christian Brothers Lining Co,277439.0,0,277439.0,1.0
-"SW-4, SW-7 to SW-14",Christian Brothers Lining Co,277439.0,0,277439.0,1.0
-NETA Testing,ABM Electrical Power Services,270000.0,0,270000.0,1.0
-PR Bid Items,"Ronan Construction, Inc.",261650.0,0,261650.0,1.0
-"""Tarqe"" down piles",Substructure Support,254190.0,0,254190.0,1.0
-"SW-32-Partial, SW-33-Partial, SW-40-Partial",Esquivel Grading & Paving,252500.0,0,252500.0,1.0
-Coating and lining work,Redwood Painting Co Inc.,250000.0,0,250000.0,1.0
-Geotechnical instrumentation,Pitcher Services LLC,250000.0,0,250000.0,1.0
-Streetbase,"Devaney Engineering, Inc.",250000.0,0,250000.0,1.0
-Painting,Redwood Painting Co Inc.,249394.0,0,249394.0,1.0
-"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",Nor-Cal Pipeline Services,146610.0,0,247060.0,0.5934
-"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",SAK Construction,100450.0,0,247060.0,0.4066
-Plumbing,Redstone Plumbing,147400.0,0,240825.0,0.6121
-Plumbing,"E. Mitchell, Inc.",68175.0,0,240825.0,0.2831
-Plumbing,Dowdle & Sons Mechanical Inc.,25250.0,0,240825.0,0.1048
-Conc. Flatwork & Large MH Bases,R&S Construction Management Inc,236408.0,0,236408.0,1.0
-"Bid Items 3, 5B, 6A, 16A and 16B",LC General Engineering,230000.0,0,230000.0,1.0
-Lining & Manhole Mortar,Christian Brothers Lining Co,228840.0,0,228840.0,1.0
-"Demo (partial), excavation (partial)",GECMS,210000.0,0,210000.0,1.0
-Medium Voltage Terminations,Hot Line Construction Inc.,207650.0,0,207650.0,1.0
-"Pipe, Irrigation, Tags",The Urban Farmer Store,200000.0,0,200000.0,1.0
-Sawcut,Sullivan's Concrete Sawing,200000.0,0,200000.0,1.0
-AC & Grinding,Roadway Construction Inc.,179000.0,0,179000.0,1.0
-Crack repair (partial),Watertight Restoration,175000.0,0,175000.0,1.0
-Metal Fabrications,Bannon Construction Inc.,175000.0,0,175000.0,1.0
-"Civil, Utilities",Fontenoy Engineering,168700.0,0,168700.0,1.0
-"Earthwork, piping, grinder, pump, sewage",Fontenoy Engineering,168700.0,0,168700.0,1.0
-Curtain Wall & Glazing,AAC Glass,166600.0,0,166600.0,1.0
-Glazing,AAC Glass,166600.0,0,166600.0,1.0
-Cast in place Concrete (Partial),R&S Construction Management Inc,161690.0,0,161690.0,1.0
-"Items 36, 37, 38, 49, 40",RK Engineering,159899.0,0,159899.0,1.0
-"Site Work, Bldg Pad, Utilities",Fontenoy Engineering,155450.0,0,155450.0,1.0
-D2 & D3 (partial),Marinship Development Interest LLC,150000.0,0,150000.0,1.0
-HASP/SWPPP,AEW Engineering Inc.,135000.0,0,135000.0,1.0
-Shotcrete,Dees-Hennessey Inc.,131250.0,0,131250.0,1.0
-Demolition/Brushing,"Njirich & Sons, Inc.",122790.0,0,122790.0,1.0
-CCTV,Nor-Cal Pipeline Services,122600.0,0,122600.0,1.0
-Drywall,Pacific Shores Construction,120947.0,0,120947.0,1.0
-Metal Framing & Drywall,Kirk Builders,101672.0,0,101672.0,1.0
-Sweeping & Equipment rental,Team North Construction Services Inc,100000.0,0,100000.0,1.0
-Welding,Thomas J's Welding,100000.0,0,100000.0,1.0
-Roofing,San Francisco Roofing Services,92500.0,0,92500.0,1.0
-"SW-5, 13, 14, 15, 26",Nor-Cal Pipeline Services,92314.0,0,92314.0,1.0
-"SW-5, 13. 14",Nor-Cal Pipeline Services,92314.0,0,92314.0,1.0
-"SW-5, 13, 14, 15, 26, 34",Nor-Cal Pipeline Services,92000.0,0,92000.0,1.0
-Partial excavation and backfill,Alex Sweeney Construction,80000.0,0,80000.0,1.0
-Milling & Filling,Roadway Construction Inc.,78950.0,0,78950.0,1.0
-Mortaring Work,Nor-Cal Pipeline Services,76934.0,0,76934.0,1.0
-Soil Sampling,Pitcher Services LLC,74000.0,0,74000.0,1.0
-Special Inspection - Partials,"Apex Testing Laboratories, Inc.",70150.0,0,70150.0,1.0
-Partial saw cutting,Sullivan's Concrete Sawing,70000.0,0,70000.0,1.0
-"B/1 SW4,8-13,20 & 32",Nor-Cal Pipeline Services,63702.0,0,63702.0,1.0
-Jackson outfall bulkhead,"Tidal Marine Construction, Inc.",60786.0,0,60786.0,1.0
-Phase II ESA/Soil Profiling,AEW Engineering Inc.,57800.0,0,57800.0,1.0
-Manhole Mortaring,Nor-Cal Pipeline Services,50450.0,0,50450.0,1.0
-P1-P5,Liffey Electric,50000.0,0,50000.0,1.0
-QC,RES/Russo Environmental Services,50000.0,0,50000.0,1.0
-Miscellaneous metal work,"MC Metal, Inc.",49700.0,0,49700.0,1.0
-SW-8 Bases Only,Ronald R Nelson Contractor Inc.,49000.0,0,49000.0,1.0
-Tree Removal,The Professional Tree Care Co.,47100.0,0,47100.0,1.0
-Scaffold,Rhodium Integrated Services,44814.0,0,44814.0,1.0
-Bid Item 15B Partial,Baytech Engineering,43900.0,0,43900.0,1.0
-Bid Item R-19,Asphalt Impressions,43471.0,0,43471.0,1.0
-Special Paving,Asphalt Impressions,43470.0,0,43470.0,1.0
-Special Paving at Crosswalk,Asphalt Impressions,43470.0,0,43470.0,1.0
-Tree Removal & Disposal,Professional Tree Care,20800.0,0,41600.0,0.5
-Tree Removal & Disposal,The Professional Tree Care Co.,20800.0,0,41600.0,0.5
-Saw Cutting - Partial,"Ronan Construction, Inc.",31250.0,0,31250.0,1.0
-Bid Item 7,Ponder Environmental Services,30000.0,0,30000.0,1.0
-Raise Manholes to Grade & Stockpile Management,Ace Drilling & Exc.,30000.0,0,30000.0,1.0
-Grinding,Roadway Construction Inc.,20000.0,0,29800.0,0.6711
-Grinding,ABSL Construction,9800.0,0,29800.0,0.3289
-Lining,Christian Brothers Lining Co,28240.0,0,28240.0,1.0
-Paving/Exc,"Duran & Venables, Inc.",25500.0,0,25500.0,1.0
-Haz Haul (as needed),S&S Trucking,20000.0,0,20000.0,1.0
-Large Manhole Base,Ronald R Nelson Contractor Inc.,20000.0,0,20000.0,1.0
-Misc Metals,"MC Metal, Inc.",19980.0,0,19980.0,1.0
-Materials Testing and Inspection Services,"Apex Testing Laboratories, Inc.",12335.0,0,12335.0,1.0
-Bid Items 6 & 7,"Apex Testing Laboratories, Inc.",12000.0,0,12000.0,1.0
-Crane and rigging,Sheedy Drayage Co.,11000.0,0,11000.0,1.0
-Cathodic protection,Corr Pro,10500.0,0,10500.0,1.0
-Bid Item 17 (Partial),Total Traffic Control Inc.,10000.0,0,10000.0,1.0
-Coating/Painting,Redwood Painting Co Inc.,10000.0,0,10000.0,1.0
-Temp Wildlife Exclusion Fence (Bid Item C-3),Team EES,6292.0,0,6292.0,1.0
-Testing,"Apex Testing Laboratories, Inc.",3000.0,0,3000.0,1.0
-Wildlife Exclusion Fence,Ertec Environmental Systems,1642.0,0,1642.0,1.0
+Trucking & Hauling (Consolidated),Camajani Trucking,950000.0,4,1841000.0,0.5160239000543183
+Trucking & Hauling (Consolidated),Cobra Trucking,51000.0,2,1841000.0,0.027702335687126562
+Trucking & Hauling (Consolidated),Philip Bettney Trucking Inc.,150000.0,1,1841000.0,0.08147745790331341
+Trucking & Hauling (Consolidated),Rogers Trucks,100000.0,1,1841000.0,0.054318305268875614
+Trucking & Hauling (Consolidated),San Francisco Transport,450000.0,1,1841000.0,0.24443237370994025
+Trucking & Hauling (Consolidated),Walter J Transportation & Logistics,140000.0,1,1841000.0,0.07604562737642585
+Tunneling,Ward & Burke Tunneling,6187000.0,1,6187000.0,1.0
+Coating,FD Thomas Inc.,25350.0,1,507350.0,0.04996550704641766
+Coating,Murphy Industrial Coatings,482000.0,1,507350.0,0.9500344929535823
+AC Paving & Asphalt Work (Consolidated),Esquivel Grading & Paving,517960.0,1,5258741.0,0.09849505803765578
+AC Paving & Asphalt Work (Consolidated),Interstate Grading and Paving,77331.0,1,5258741.0,0.01470523077672013
+AC Paving & Asphalt Work (Consolidated),Radius Earthwork Inc,600000.0,1,5258741.0,0.11409575029460474
+AC Paving & Asphalt Work (Consolidated),Roadway Construction Inc.,2375950.0,4,5258741.0,0.45180966318744353
+AC Paving & Asphalt Work (Consolidated),"Ronan Construction, Inc.",1687500.0,2,5258741.0,0.3208942977035758
+Excavation,Harty Pipeline Inc.,600000.0,1,600000.0,1.0
+Geotechnical work,Municon West Coast,626000.0,1,626000.0,1.0
+Concrete Work (Consolidated),Cell-crete Corporation,59978.5,1,6909290.5,0.008680847910505428
+Concrete Work (Consolidated),LC General Engineering,77000.0,1,6909290.5,0.011144414900487974
+Concrete Work (Consolidated),On The Level Concrete,139815.0,1,6909290.5,0.02023579700404839
+Concrete Work (Consolidated),R&S Construction Management Inc,3458797.0,7,6909290.5,0.5006008938254948
+Concrete Work (Consolidated),RK Engineering,948700.0,3,6909290.5,0.13730787553367454
+Concrete Work (Consolidated),Roadway Construction Inc.,545000.0,1,6909290.5,0.0788793002696876
+Concrete Work (Consolidated),Ronald R Nelson Contractor Inc.,1000000.0,2,6909290.5,0.14473266104529836
+Concrete Work (Consolidated),"Ronan Construction, Inc.",680000.0,1,6909290.5,0.09841820951080288
+Traffic Control & Sawcutting (Consolidated),Bay Line Cutting & Coring Inc,80000.0,1,5142700.0,0.015556030878721294
+Traffic Control & Sawcutting (Consolidated),Bay-Con Infrastructure,7700.0,1,5142700.0,0.0014972679720769246
+Traffic Control & Sawcutting (Consolidated),CMC Traffic Control Specialists,2948000.0,6,5142700.0,0.5732397378808797
+Traffic Control & Sawcutting (Consolidated),CMC Traffic Control Specialists  ,20000.0,1,5142700.0,0.0038890077196803235
+Traffic Control & Sawcutting (Consolidated),Hernandez Engineering,145000.0,2,5142700.0,0.028195305967682344
+Traffic Control & Sawcutting (Consolidated),JR Monterrosa Inc,60000.0,1,5142700.0,0.01166702315904097
+Traffic Control & Sawcutting (Consolidated),M. Hernandez Construction Inc. DBA Hernandez Engineering,650000.0,1,5142700.0,0.12639275088961052
+Traffic Control & Sawcutting (Consolidated),"Ronan Construction, Inc.",365000.0,1,5142700.0,0.0709743908841659
+Traffic Control & Sawcutting (Consolidated),Total Traffic Control Inc.,867000.0,3,5142700.0,0.16858848464814202
+Engineering & Design Services (Consolidated),AGS Inc,615000.0,2,4038744.0,0.1522750637326852
+Engineering & Design Services (Consolidated),BKF Engineers,190000.0,1,4038744.0,0.0470443286328621
+Engineering & Design Services (Consolidated),GHD Inc,1531744.0,1,4038744.0,0.379262463775867
+Engineering & Design Services (Consolidated),Langan Engineering,155000.0,1,4038744.0,0.03837826809522961
+Engineering & Design Services (Consolidated),"Pacific Engineering & Construction, Inc.",650000.0,1,4038744.0,0.1609411242703177
+Engineering & Design Services (Consolidated),TRC Solutions Inc,757000.0,1,4038744.0,0.18743450934250847
+Engineering & Design Services (Consolidated),Telamon Engineering Consultants Inc,40000.0,1,4038744.0,0.009904069185865704
+Engineering & Design Services (Consolidated),Transpac Engineering,100000.0,1,4038744.0,0.024760172964664262
+D2 & D3 (partial),Marinship Development Interest LLC,150000.0,1,150000.0,1.0
+"Supply/Install Vaults (partial), FTB",Marinship Development Interest LLC,1500000.0,1,1500000.0,1.0
+Micro tunneling,Nada Pacific Corporation,1290000.0,1,5466760.0,0.23597158097300777
+Micro tunneling,Primoris Services Corporation Vadnais Trenchless Services Inc,4176760.0,1,5466760.0,0.7640284190269923
+Sweeping & Equipment rental,Team North Construction Services Inc,100000.0,1,100000.0,1.0
+CCTV,Nor-Cal Pipeline Services,36600.0,1,36600.0,1.0
+Ground Improvements,"Condon-Johnson & Associates, Inc",603600.0,1,603600.0,1.0
+Shoring,"Blue Iron Foundations and Shoring, LLC",1120000.0,2,1120000.0,1.0
+Phase II ESA/Soil Profiling,AEW Engineering Inc.,57800.0,1,57800.0,1.0
+Soil Sampling,Pitcher Services LLC,74000.0,1,74000.0,1.0
+Structural Work (Consolidated),Ahlborn Structural Steel,109200.0,1,4936694.0,0.02212006658707224
+Structural Work (Consolidated),"Alta Group, Inc.",1641992.0,2,4936694.0,0.33260963713772823
+Structural Work (Consolidated),Cody Builders Supply,1900000.0,1,4936694.0,0.3848729534380701
+Structural Work (Consolidated),Fontenoy Engineering,352253.0,1,4936694.0,0.07135402761443184
+Structural Work (Consolidated),Weldway Steel Fabrication,933249.0,1,4936694.0,0.18904331522269763
+"Items - 35, 36, 37, 38, 39, 40, 41, 42, 43",Apex Rockfall Mitigation LLC,7040083.0,1,7040083.0,1.0
+Drilling,Canepa and Sons Inc,254408.0,1,254408.0,1.0
+FCF Pad & Priest Portal Walls,Geostructural Engineering Inc.,1300000.0,1,1300000.0,1.0
+Pipeline & Sewer Work (Consolidated),"Kroner Environmental Services, Inc.",3268963.0,1,4459427.0,0.7330455235616594
+Pipeline & Sewer Work (Consolidated),Nor-Cal Pipeline Services,26555.0,1,4459427.0,0.005954800919490329
+Pipeline & Sewer Work (Consolidated),Pipe & Plant Solutions,233946.0,1,4459427.0,0.05246100003430934
+Pipeline & Sewer Work (Consolidated),"Renesco, Inc.",847463.0,1,4459427.0,0.19003854082598504
+Pipeline & Sewer Work (Consolidated),Watertight Restoration,82500.0,1,4459427.0,0.01850013465855591
+Electrical Work (Consolidated),"Barri Electric Company, Inc.",1300000.0,1,8190162.0,0.15872701907483638
+Electrical Work (Consolidated),Baytech Engineering,406500.0,2,8190162.0,0.049632717887631524
+Electrical Work (Consolidated),Frisch Engineering,1436600.0,1,8190162.0,0.17540556584839226
+Electrical Work (Consolidated),Liffey Electric,561900.0,3,8190162.0,0.0686067015524235
+Electrical Work (Consolidated),Schrader Mechanical Inc.,4485162.0,1,8190162.0,0.5476279956367164
+Demolition/Brushing,"Njirich & Sons, Inc.",122790.0,1,122790.0,1.0
+"Chain link and agricultural fences, Gates","Ranch Fence, Inc.",641025.0,1,641025.0,1.0
+Materials Testing and Inspection Services,"Apex Testing Laboratories, Inc.",12335.0,1,12335.0,1.0
+R1-R20 Concreate,R&S Construction Management Inc,2200000.0,1,2200000.0,1.0
+Mill & Fill,Roman Construction,946450.0,1,946450.0,1.0
+P1-P5,Liffey Electric,50000.0,1,50000.0,1.0
+"SW-5, 13, 14, 15, 26, 34",Nor-Cal Pipeline Services,92000.0,1,92000.0,1.0
+Pavement Restoration,Basset Engineering,592900.0,1,592900.0,1.0
+Grinding & Paving,"Ronan Construction, Inc.",491000.0,1,491000.0,1.0
+"Pipe, Irrigation, Tags",The Urban Farmer Store,200000.0,1,200000.0,1.0
+Did not list,"MC Metal, Inc.",497000.0,1,497000.0,1.0
+Modulars,"Global Modular, Inc.",373786.0,1,373786.0,1.0
+Temp Wildlife Exclusion Fence (Bid Item C-3),Team EES,6292.0,1,6292.0,1.0
+"Civil, Utilities",Fontenoy Engineering,168700.0,1,168700.0,1.0
+Tree Removal & Disposal,The Professional Tree Care Co.,20800.0,1,20800.0,1.0
+NETA Testing,ABM Electrical Power Services,270000.0,1,270000.0,1.0
+Glazing,AAC Glass,166600.0,1,166600.0,1.0
+Civil (Partial),"Azul Works, Inc.",752000.0,1,752000.0,1.0
+Piles,Drill Tech Drilling & Shoring,250666.0,1,250666.0,1.0
+Medium Voltage Terminations,Hot Line Construction Inc.,207650.0,1,207650.0,1.0
+Drywall,Pacific Shores Construction,120947.0,1,120947.0,1.0
+Fiber Optics,Point One Electrical Systems Inc.,318765.0,1,318765.0,1.0
+Rebar,Rebar International,151961.0,1,151961.0,1.0
+Plumbing,Redstone Plumbing,73700.0,1,73700.0,1.0
+Roofing,San Francisco Roofing Services,92500.0,1,92500.0,1.0
+Mortaring Work,Nor-Cal Pipeline Services,76934.0,1,76934.0,1.0
+Grinding,Roadway Construction Inc.,20000.0,1,20000.0,1.0
+"SW-4, SW-7 to SW-14",Christian Brothers Lining Co,277439.0,1,277439.0,1.0
+"Demo (partial), excavation (partial)",GECMS,210000.0,1,210000.0,1.0
+Torque Down Piles,Foundation Constructors,235000.0,1,354880.0,0.6621956717763751
+Torque Down Piles,Substructural Support Inc (A Drill Tech Company),119880.0,1,354880.0,0.3378043282236249
+Misc Metals,"MC Metal, Inc.",19980.0,1,19980.0,1.0
+Sawcut,Sullivan's Concrete Sawing,200000.0,1,200000.0,1.0
+SW-8 Bases Only,Ronald R Nelson Contractor Inc.,49000.0,1,49000.0,1.0
+"SW-32-Partial, SW-33-Partial, SW-40-Partial",Esquivel Grading & Paving,252500.0,1,252500.0,1.0
+"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",Nor-Cal Pipeline Services,146610.0,1,247060.0,0.5934186027685583
+"SW-03A-Partial, SW-25, SW-36, SW-37, SW-38",SAK Construction,100450.0,1,247060.0,0.40658139723144177
+Bypass,Pipe & Plant Solutions,387500.0,1,387500.0,1.0
+Painting & Coating,Jeffco Painting & Coating Inc.,28200.0,1,28200.0,1.0
+Manhole Mortaring,Nor-Cal Pipeline Services,50450.0,1,50450.0,1.0
+Raise Manholes to Grade & Stockpile Management,Ace Drilling & Exc.,30000.0,1,30000.0,1.0
+Shotcrete,Dees-Hennessey Inc.,131250.0,1,131250.0,1.0
+Furnish and install protective coatings,National Coating & Lining,616328.0,1,616328.0,1.0
+Jackson outfall bulkhead,"Tidal Marine Construction, Inc.",60786.0,1,60786.0,1.0

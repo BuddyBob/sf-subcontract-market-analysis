@@ -1,27 +1,11 @@
 export const sampleLbeAnalysis = [
   {
-    "Scope of Work": "Micro tunneling",
-    LBE_Count: 0,
-    Total_Subs: 7,
-    LBE_Rate: 0,
-    Total_Dollars: 22171120,
-    LBE_Dollar_Share: 0
-  },
-  {
-    "Scope of Work": "Electrical, Communications, Electronic Safety and Security, Process Integration",
-    LBE_Count: 0,
-    Total_Subs: 1,
-    LBE_Rate: 0,
-    Total_Dollars: 18787407,
-    LBE_Dollar_Share: 0
-  },
-  {
-    "Scope of Work": "Concrete",
-    LBE_Count: 10,
-    Total_Subs: 11,
-    LBE_Rate: 0.909,
-    Total_Dollars: 8517016,
-    LBE_Dollar_Share: 0.732
+    "Scope of Work": "Electrical Work (Consolidated)",
+    LBE_Count: 6,
+    Total_Subs: 8,
+    LBE_Rate: 0.75,
+    Total_Dollars: 8190162,
+    LBE_Dollar_Share: 0.666
   },
   {
     "Scope of Work": "Items - 35, 36, 37, 38, 39, 40, 41, 42, 43",
@@ -32,11 +16,27 @@ export const sampleLbeAnalysis = [
     LBE_Dollar_Share: 0
   },
   {
-    "Scope of Work": "Water/sewer pipe install",
+    "Scope of Work": "Concrete Work (Consolidated)",
+    LBE_Count: 16,
+    Total_Subs: 17,
+    LBE_Rate: 0.941,
+    Total_Dollars: 6909290,
+    LBE_Dollar_Share: 0.991
+  },
+  {
+    "Scope of Work": "Tunneling",
     LBE_Count: 0,
     Total_Subs: 1,
     LBE_Rate: 0,
-    Total_Dollars: 6979884,
+    Total_Dollars: 6187000,
+    LBE_Dollar_Share: 0
+  },
+  {
+    "Scope of Work": "Micro tunneling",
+    LBE_Count: 0,
+    Total_Subs: 2,
+    LBE_Rate: 0,
+    Total_Dollars: 5466760,
     LBE_Dollar_Share: 0
   }
 ];

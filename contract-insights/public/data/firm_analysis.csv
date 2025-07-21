@@ -1,157 +1,96 @@
 Contractor Name,Total_Dollars,Is_LBE,Scope_Count
-Ward & Burke Tunneling,23591400.0,False,4
-Cupertino Electric Inc.,18787407.0,False,1
-R&S Construction Management Inc,15533390.0,True,15
-"Ronan Construction, Inc.",12833356.0,True,21
-Nada Pacific Corporation,10751325.0,False,1
-Roadway Construction Inc.,10363550.0,True,16
 Apex Rockfall Mitigation LLC,7040083.0,False,1
-Cratus Inc.,6979884.0,False,1
-Big Valley Electric,5872222.0,True,1
-Primoris Services Corporation Vadnais Trenchless Services Inc,5442595.0,False,1
+Ward & Burke Tunneling,6187000.0,False,1
+R&S Construction Management Inc,5658797.0,True,7
 Schrader Mechanical Inc.,4485162.0,True,1
-Marinship Development Interest LLC,4076000.0,True,3
-"Clear Water Compliance, LLC (DBA Clear Water Services)",3977601.0,False,1
-CMC Traffic Control Specialists,3876500.0,True,5
-On The Level Concrete,3800688.0,True,2
-Rk Engineering,3791731.0,True,2
-Fontenoy Engineering,3578215.0,True,7
-Total Traffic Control Inc.,3567000.0,True,3
-"Alta Group, Inc.",3285970.0,True,2
+Primoris Services Corporation Vadnais Trenchless Services Inc,4176760.0,False,1
 "Kroner Environmental Services, Inc.",3268963.0,False,1
-Basset Engineering,3204713.0,True,4
-Ronald R Nelson Contractor Inc.,3008000.0,True,6
-RK Engineering,2307237.0,True,6
-Rands Construction Management Inc,2280561.0,False,1
-"Renesco, Inc.",1901249.0,False,1
+"Ronan Construction, Inc.",3223500.0,True,5
+CMC Traffic Control Specialists,2948000.0,True,2
+Roadway Construction Inc.,2940950.0,True,6
 Cody Builders Supply,1900000.0,False,1
-Weldway Steel Fabrication,1866454.0,False,2
-G2 Metal Fab,1801245.0,False,1
-"Blocka Construction, Inc.",1757015.0,False,2
-TRC Solutions Inc,1703000.0,False,1
-"Blue Iron Foundations and Shoring, LLC",1695000.0,False,1
-Michael O'Shaughnessy Construction,1675946.0,True,1
+Marinship Development Interest LLC,1650000.0,True,2
+"Alta Group, Inc.",1641992.0,True,2
 GHD Inc,1531744.0,False,1
-"Global Modular, Inc.",1485888.0,False,3
-Liffey Electric,1478000.0,True,6
 Frisch Engineering,1436600.0,False,1
-Bay Engineering,1428000.0,True,1
-Christian Brothers Lining Co,1419137.0,False,8
-Nor-Cal Pipeline Services,1411462.0,False,12
-Municon West Coast,1397746.0,False,1
-Camajani Trucking,1370000.0,True,2
-RK Engineering ,1308480.0,True,1
 "Barri Electric Company, Inc.",1300000.0,False,1
 Geostructural Engineering Inc.,1300000.0,False,1
-"Condon-Johnson & Associates, Inc",1215600.0,False,3
-Radius Earthwork Inc,1210000.0,False,3
-Cobra Trucking,1148500.0,True,5
-Baytech Engineering,1112900.0,True,4
-Pipe & Plant Solutions,1103946.0,False,3
-CMC Traffic Control Specialists ,1073240.0,False,1
-"MC Metal, Inc.",1063680.0,True,4
-Rogers Trucks,1010000.0,True,3
-Hernandez Engineering,951265.0,True,3
-"Devaney Engineering, Inc.",950000.0,True,2
+Nada Pacific Corporation,1290000.0,False,1
+"Blue Iron Foundations and Shoring, LLC",1120000.0,False,1
+Ronald R Nelson Contractor Inc.,1049000.0,True,3
+Camajani Trucking,950000.0,True,2
+RK Engineering,948700.0,True,3
 Roman Construction,946450.0,False,1
-Murphy Industrial Coatings,935000.0,False,2
-QA Constructors ,925985.0,True,1
-Certified Coatings Company,900405.0,False,1
-"Pacific Engineering & Construction, Inc.",865000.0,True,2
-Crana Trucking,775000.0,True,2
+Weldway Steel Fabrication,933249.0,False,1
+Total Traffic Control Inc.,867000.0,True,2
+"Renesco, Inc.",847463.0,False,1
 Esquivel Grading & Paving,770460.0,True,2
-CIW and Sons Plumbing,756000.0,True,1
+TRC Solutions Inc,757000.0,False,1
 "Azul Works, Inc.",752000.0,False,1
-"Apex Testing Laboratories, Inc.",697485.0,False,5
-Daly Pipelines Inc.,697000.0,True,2
-Redwood Painting Co Inc.,684394.0,False,4
-Mission Constructors Inc,673729.0,True,1
-Pioneer Contractors Inc.,660630.0,True,1
+"Pacific Engineering & Construction, Inc.",650000.0,True,1
 M. Hernandez Construction Inc. DBA Hernandez Engineering,650000.0,True,1
 "Ranch Fence, Inc.",641025.0,False,1
+Municon West Coast,626000.0,False,1
+Pipe & Plant Solutions,621446.0,False,2
 National Coating & Lining,616328.0,False,1
 AGS Inc,615000.0,True,2
+Liffey Electric,611900.0,True,3
+"Condon-Johnson & Associates, Inc",603600.0,False,1
+Radius Earthwork Inc,600000.0,False,1
 Harty Pipeline Inc.,600000.0,True,1
-Bannon Construction Inc.,530914.0,True,3
-Bay Line Cutting & Coring Inc,523000.0,True,2
-JR Monterrosa Inc,510000.0,True,2
-Drill Tech Drilling & Shoring,501332.0,False,2
-Sullivan's Concrete Sawing,490000.0,True,5
-Hayward Baker Inc,450000.0,False,1
+Basset Engineering,592900.0,True,1
+Fontenoy Engineering,520953.0,True,2
+"MC Metal, Inc.",516980.0,True,2
+Murphy Industrial Coatings,482000.0,False,1
 San Francisco Transport,450000.0,False,1
-Jeffco Painting & Coating Inc.,448200.0,False,2
-BKF Engineers,440000.0,False,1
-Langan Engineering,407600.0,False,1
-Coastside Service LLC,400000.0,False,2
-Cranon Tucking,350456.0,False,1
-Watertight Restoration,340000.0,True,2
-Kearney Plumbing,337000.0,True,1
-AAC Glass,333200.0,False,2
-Pitcher Services LLC,324000.0,False,2
-S&S Trucking,321312.0,False,2
+Nor-Cal Pipeline Services,429149.0,False,6
+Baytech Engineering,406500.0,True,2
+"Global Modular, Inc.",373786.0,False,1
 Point One Electrical Systems Inc.,318765.0,False,1
-LC General Engineering,307000.0,True,2
-Rebar International,303922.0,False,1
-Lou's Concrete Sawing & Breaking,299225.0,True,1
-KCA Engineers Inc,288600.0,True,2
-"Mark Olson Electric, Inc.",273938.0,True,2
+Christian Brothers Lining Co,277439.0,False,1
 ABM Electrical Power Services,270000.0,False,1
-"Sheeron Pipeline, Inc.",270000.0,True,1
-Bowers Electric,269000.0,False,1
-Bullard's Heating & Air,264000.0,True,1
 Canepa and Sons Inc,254408.0,True,1
-Substructure Support,254190.0,False,1
-Accurate Earthworks Inc.,250000.0,True,1
+Drill Tech Drilling & Shoring,250666.0,False,1
 Foundation Constructors,235000.0,False,1
-RDS Trucking,221760.0,True,1
 GECMS,210000.0,True,1
 Hot Line Construction Inc.,207650.0,False,1
-Clohina Trucking,206976.0,False,1
 The Urban Farmer Store,200000.0,True,1
-"Foundation Pile, Inc.",195000.0,False,1
-AEW Engineering Inc.,192800.0,True,2
-Wrights Trucking LLC,184800.0,False,1
-"Anco Iron & Construction, Inc.",170000.0,True,1
-"Silverado Contractors, Inc.",168800.0,False,1
+Sullivan's Concrete Sawing,200000.0,True,1
+BKF Engineers,190000.0,False,1
+AAC Glass,166600.0,False,1
+Langan Engineering,155000.0,False,1
+Rebar International,151961.0,False,1
 Philip Bettney Trucking Inc.,150000.0,True,1
-Redstone Plumbing,147400.0,True,1
-Telamon Engineering Consultants Inc,140000.0,False,2
+Hernandez Engineering,145000.0,True,1
 Walter J Transportation & Logistics,140000.0,False,1
+On The Level Concrete,139815.0,True,1
 Dees-Hennessey Inc.,131250.0,False,1
-Asphalt Impressions,130411.0,False,3
-Ace Drilling & Exc.,130000.0,True,2
 "Njirich & Sons, Inc.",122790.0,True,1
 Pacific Shores Construction,120947.0,True,1
 Substructural Support Inc (A Drill Tech Company),119880.0,False,1
 Ahlborn Structural Steel,109200.0,False,1
-Kirk Builders,101672.0,True,1
 SAK Construction,100450.0,False,1
-Thomas J's Welding,100000.0,False,1
 Transpac Engineering,100000.0,True,1
 Team North Construction Services Inc,100000.0,True,1
-Geo-Cell Solutions,100000.0,False,1
+Rogers Trucks,100000.0,True,1
 San Francisco Roofing Services,92500.0,True,1
-Alex Sweeney Construction,80000.0,True,1
+Watertight Restoration,82500.0,True,1
+Bay Line Cutting & Coring Inc,80000.0,True,1
 Interstate Grading and Paving,77331.0,False,1
-"E. Mitchell, Inc.",68175.0,True,1
-The Professional Tree Care Co.,67900.0,False,2
+LC General Engineering,77000.0,True,1
+Pitcher Services LLC,74000.0,False,1
+Redstone Plumbing,73700.0,True,1
 "Tidal Marine Construction, Inc.",60786.0,False,1
-Cell-crete Corporation,59978.0,False,1
-Con Foam,57000.0,False,1
-Bay-Con Infrastructure,51450.0,False,2
-RES/Russo Environmental Services,50000.0,False,1
-Rhodium Integrated Services,44814.0,False,1
-Win Structural Consulting,35000.0,True,1
-Ponder Environmental Services,30000.0,False,1
-"Duran & Venables, Inc.",25500.0,False,1
+JR Monterrosa Inc,60000.0,True,1
+Cell-crete Corporation,59978.5,False,1
+AEW Engineering Inc.,57800.0,True,1
+Cobra Trucking,51000.0,True,2
+Telamon Engineering Consultants Inc,40000.0,False,1
+Ace Drilling & Exc.,30000.0,True,1
+Jeffco Painting & Coating Inc.,28200.0,False,1
 FD Thomas Inc.,25350.0,False,1
-Dowdle & Sons Mechanical Inc.,25250.0,False,1
-HVYW8,25000.0,True,1
-Bay Area Lightworks Inc,22000.0,True,1
-Professional Tree Care,20800.0,False,1
+The Professional Tree Care Co.,20800.0,False,1
 CMC Traffic Control Specialists  ,20000.0,True,1
-Sheedy Drayage Co.,11000.0,False,1
-Corr Pro,10500.0,False,1
-ABSL Construction,9800.0,False,1
+"Apex Testing Laboratories, Inc.",12335.0,True,1
+Bay-Con Infrastructure,7700.0,False,1
 Team EES,6292.0,True,1
-Ertec Environmental Systems,1642.0,False,1

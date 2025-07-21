@@ -1,37 +1,37 @@
 export const sampleMarketConcentration = [
   {
-    ScopeOfWork: "Electrical Work (Consolidated)",
-    ScopeHHI: 3342,
-    NumSubcontractors: 11,
-    ScopeTotalSub: 35225329,
+    ScopeOfWork: "Concrete Work (Consolidated)",
+    ScopeHHI: 3069,
+    NumSubcontractors: 8,
+    ScopeTotalSub: 6909290.5,
     ConcentrationLevel: "Highly Concentrated"
   },
   {
-    ScopeOfWork: "Concrete Work (Consolidated)",
-    ScopeHHI: 2013,
-    NumSubcontractors: 17,
-    ScopeTotalSub: 31040514,
-    ConcentrationLevel: "Moderately Concentrated"
+    ScopeOfWork: "Tunneling",
+    ScopeHHI: 10000,
+    NumSubcontractors: 1,
+    ScopeTotalSub: 6187000,
+    ConcentrationLevel: "Highly Concentrated"
   },
   {
-    ScopeOfWork: "Pipeline & Sewer Work (Consolidated)",
-    ScopeHHI: 1541,
-    NumSubcontractors: 15,
-    ScopeTotalSub: 22540072,
-    ConcentrationLevel: "Moderately Concentrated"
-  },
-  {
-    ScopeOfWork: "Micro tunneling",
-    ScopeHHI: 3681,
-    NumSubcontractors: 3,
-    ScopeTotalSub: 22171120,
+    ScopeOfWork: "AC Paving & Asphalt Work (Consolidated)",
+    ScopeHHI: 3300,
+    NumSubcontractors: 5,
+    ScopeTotalSub: 5258741,
     ConcentrationLevel: "Highly Concentrated"
   },
   {
     ScopeOfWork: "Traffic Control & Sawcutting (Consolidated)",
-    ScopeHHI: 1771,
-    NumSubcontractors: 14,
-    ScopeTotalSub: 14276559,
+    ScopeHHI: 3792,
+    NumSubcontractors: 9,
+    ScopeTotalSub: 5142700,
+    ConcentrationLevel: "Highly Concentrated"
+  },
+  {
+    ScopeOfWork: "Engineering & Design Services (Consolidated)",
+    ScopeHHI: 2325,
+    NumSubcontractors: 8,
+    ScopeTotalSub: 4038744,
     ConcentrationLevel: "Moderately Concentrated"
   }
 ];

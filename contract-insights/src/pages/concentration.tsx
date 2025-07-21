@@ -303,7 +303,7 @@ export default function ConcentrationPage() {
                         </div>
                         <div className="text-center">
                           <div className="font-medium text-gray-900 dark:text-white">
-                            {scope.ScopeHHI}
+                            {scope.ScopeHHI.toLocaleString()}
                           </div>
                           <div className="text-xs text-gray-500">HHI</div>
                         </div>

@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/dominant-firms": "pages/dominant-firms.js",
-  "/concentration": "pages/concentration.js",
-  "/lbe-equity": "pages/lbe-equity.js"
-}
+{"/_app":"pages/_app.js","/concentration":"pages/concentration.html","/dominant-firms":"pages/dominant-firms.html","/":"pages/index.html","/lbe-equity":"pages/lbe-equity.html","/downloads":"pages/downloads.html","/_error":"pages/_error.js","/_document":"pages/_document.js","/404":"pages/404.html"}
