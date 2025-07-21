@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/lbe-equity": "pages/lbe-equity.js",
-  "/dominant-firms": "pages/dominant-firms.js",
-  "/concentration": "pages/concentration.js"
+  "/downloads": "pages/downloads.js",
+  "/concentration": "pages/concentration.js",
+  "/lbe-equity": "pages/lbe-equity.js"
 }
