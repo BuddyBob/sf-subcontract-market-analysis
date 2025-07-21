@@ -51,6 +51,7 @@ export default function LbeEquityPage() {
 
   // Prepare bar chart data for LBE rates
   const scopeData = lbeAnalysis
+    .filter(item => item.Total_Dollars && item.Total_Dollars > 0) // Filter out invalid data
     .sort((a, b) => b.Total_Dollars - a.Total_Dollars)
     .slice(0, 10)
     .map(item => ({
@@ -58,10 +59,10 @@ export default function LbeEquityPage() {
         ? item['Scope of Work'].substring(0, 30) + '...' 
         : item['Scope of Work'],
       fullScope: item['Scope of Work'],
-      lbeShare: item.LBE_Dollar_Share,
-      totalSpend: item.Total_Dollars,
-      lbeCount: item.LBE_Count,
-      totalSubs: item.Total_Subs
+      lbeShare: Number(item.LBE_Dollar_Share) || 0, // Ensure it's a number
+      totalSpend: Number(item.Total_Dollars) || 0,
+      lbeCount: Number(item.LBE_Count) || 0,
+      totalSubs: Number(item.Total_Subs) || 0
     }));
 
   const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }: any) => {
@@ -162,42 +163,6 @@ export default function LbeEquityPage() {
                 <div className="w-3 h-3 bg-danger-500 rounded-full mr-2"></div>
                 <span className="text-sm text-gray-600 dark:text-gray-300">Non-LBE Spend</span>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Top Scopes by Spend with LBE Share */}
-        <Card>
-          <CardHeader>
-            <CardTitle>LBE Share by Scope (Top 10 by Spend)</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="chart-container">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart 
-                  data={scopeData}
-                  layout="horizontal"
-                >
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis 
-                    type="number"
-                    domain={[0, 1]}
-                    tickFormatter={(value) => formatPercent(value)}
-                    tick={{ fontSize: 10 }}
-                  />
-                  <YAxis 
-                    type="category"
-                    dataKey="scope"
-                    tick={{ fontSize: 10 }}
-                    width={120}
-                  />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Bar 
-                    dataKey="lbeShare" 
-                    fill="#0669B2"
-                  />
-                </BarChart>
-              </ResponsiveContainer>
             </div>
           </CardContent>
         </Card>

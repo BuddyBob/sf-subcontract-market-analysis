@@ -17,10 +17,13 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     setMounted(true);
     // Check for saved theme preference or default to light mode
     const savedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    // Only set dark mode if explicitly saved as 'dark'
+    if (savedTheme === 'dark') {
       setDarkMode(true);
+    } else {
+      // Default to light mode regardless of system preference
+      setDarkMode(false);
     }
   }, []);
 
