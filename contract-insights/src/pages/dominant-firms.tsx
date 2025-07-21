@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useData } from '@/context/DataContext';
 import { formatCurrency, formatPercent } from '@/lib/utils';
-import { Search, X, ChevronDown, ChevronUp } from 'lucide-react';
+import { Search, X, ChevronDown, ChevronUp, CheckCircle2, XCircle } from 'lucide-react';
 
 interface SlideOverProps {
   isOpen: boolean;
@@ -95,7 +95,7 @@ function SlideOver({ isOpen, onClose, subcontractor }: SlideOverProps) {
 }
 
 export default function DominantFirmsPage() {
-  const { dominantSubcontractors, isLoading } = useData();
+  const { dominantSubcontractors, firmAnalysis, isLoading } = useData();
   const [searchTerm, setSearchTerm] = useState('');
   const [sortConfig, setSortConfig] = useState<{
     key: string;
@@ -103,6 +103,15 @@ export default function DominantFirmsPage() {
   }>({ key: 'ShareOfScope', direction: 'desc' });
   const [selectedSubcontractor, setSelectedSubcontractor] = useState<any>(null);
   const [slideOverOpen, setSlideOverOpen] = useState(false);
+
+  // Create a lookup map for LBE status
+  const lbeStatusMap = useMemo(() => {
+    const map = new Map<string, boolean>();
+    firmAnalysis.forEach(firm => {
+      map.set(firm['Contractor Name'], firm.Is_LBE);
+    });
+    return map;
+  }, [firmAnalysis]);
 
   const filteredAndSortedData = useMemo(() => {
     if (!dominantSubcontractors) return [];
@@ -221,6 +230,11 @@ export default function DominantFirmsPage() {
                       {getSortIcon('ScopeOfWork')}
                     </button>
                   </th>
+                  <th className="text-center py-3 px-4">
+                    <span className="font-medium text-gray-900 dark:text-white">
+                      LBE Status
+                    </span>
+                  </th>
                   <th className="text-right py-3 px-4">
                     <button
                       onClick={() => handleSort('TotalSubAmount')}
@@ -269,6 +283,30 @@ export default function DominantFirmsPage() {
                       <div className="text-gray-600 dark:text-gray-300 max-w-xs truncate">
                         {sub.ScopeOfWork}
                       </div>
+                    </td>
+                    <td className="py-3 px-4 text-center">
+                      {(() => {
+                        const isLbe = lbeStatusMap.get(sub.SubcontractorName);
+                        if (isLbe === true) {
+                          return (
+                            <div className="flex items-center justify-center gap-1">
+                              <CheckCircle2 className="h-4 w-4 text-green-600" />
+                              <span className="text-sm font-medium text-green-700 dark:text-green-400">LBE</span>
+                            </div>
+                          );
+                        } else if (isLbe === false) {
+                          return (
+                            <div className="flex items-center justify-center gap-1">
+                              <XCircle className="h-4 w-4 text-gray-400" />
+                              <span className="text-sm text-gray-500">Non-LBE</span>
+                            </div>
+                          );
+                        } else {
+                          return (
+                            <span className="text-sm text-gray-400">Unknown</span>
+                          );
+                        }
+                      })()}
                     </td>
                     <td className="py-3 px-4 text-right">
                       <div className="font-medium text-gray-900 dark:text-white">

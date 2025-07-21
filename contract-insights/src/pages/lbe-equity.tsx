@@ -5,12 +5,13 @@ import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useData } from '@/context/DataContext';
 import { formatCurrency, formatPercent, getLbeEquityColor } from '@/lib/utils';
-import { ArrowUpDown, Users, DollarSign, TrendingUp, Building2 } from 'lucide-react';
+import { ArrowUpDown, Users, DollarSign, TrendingUp, Building2, Search } from 'lucide-react';
 
 export default function LbeEquityPage() {
   const { lbeAnalysis, isLoading } = useData();
   const [sortBy, setSortBy] = useState<'lbeShare' | 'totalSpend' | 'lbeCount' | 'scope'>('lbeShare');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  const [searchTerm, setSearchTerm] = useState('');
 
   if (isLoading) {
     return (
@@ -256,29 +257,53 @@ export default function LbeEquityPage() {
       <Card className="mb-8">
         <CardHeader>
           <CardTitle>All Scopes LBE Participation</CardTitle>
-          <div className="flex items-center justify-between">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Complete overview of LBE participation across all {lbeAnalysis.length} scopes
-            </p>
-            <div className="flex items-center gap-2">
-              <label className="text-sm text-gray-600 dark:text-gray-300">Sort by:</label>
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
-                className="text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded px-2 py-1"
-              >
-                <option value="lbeShare">LBE Share</option>
-                <option value="totalSpend">Total Spend</option>
-                <option value="lbeCount">LBE Count</option>
-                <option value="scope">Scope Name</option>
-              </select>
-              <button
-                onClick={() => setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')}
-                className="flex items-center gap-1 px-2 py-1 text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
-              >
-                <ArrowUpDown className="h-3 w-3" />
-                {sortDirection === 'desc' ? 'Desc' : 'Asc'}
-              </button>
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center justify-between">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                Complete overview of LBE participation across all {lbeAnalysis.length} scopes
+              </p>
+              <div className="flex items-center gap-2">
+                <label className="text-sm text-gray-600 dark:text-gray-300">Sort by:</label>
+                <select
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as any)}
+                  className="text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded px-2 py-1"
+                >
+                  <option value="lbeShare">LBE Share</option>
+                  <option value="totalSpend">Total Spend</option>
+                  <option value="lbeCount">LBE Count</option>
+                  <option value="scope">Scope Name</option>
+                </select>
+                <button
+                  onClick={() => setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')}
+                  className="flex items-center gap-1 px-2 py-1 text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
+                >
+                  <ArrowUpDown className="h-3 w-3" />
+                  {sortDirection === 'desc' ? 'Desc' : 'Asc'}
+                </button>
+              </div>
+            </div>
+            
+            {/* Search Field */}
+            <div className="flex items-center gap-2 max-w-md">
+              <div className="relative flex-1">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="Search scopes..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                />
+              </div>
+              {searchTerm && (
+                <button
+                  onClick={() => setSearchTerm('')}
+                  className="px-3 py-2 text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                >
+                  Clear
+                </button>
+              )}
             </div>
           </div>
         </CardHeader>
@@ -296,6 +321,9 @@ export default function LbeEquityPage() {
               </thead>
               <tbody>
                 {lbeAnalysis
+                  .filter(scope => 
+                    scope['Scope of Work'].toLowerCase().includes(searchTerm.toLowerCase())
+                  )
                   .sort((a, b) => {
                     let valueA, valueB;
                     switch (sortBy) {

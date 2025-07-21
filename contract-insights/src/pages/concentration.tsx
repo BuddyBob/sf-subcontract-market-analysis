@@ -5,18 +5,25 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useData } from '@/context/DataContext';
 import { formatCurrency, formatPercent } from '@/lib/utils';
-import { Info, ChevronDown, Target, ArrowUpDown } from 'lucide-react';
+import { Info, ChevronDown, Target, ArrowUpDown, Search, X } from 'lucide-react';
 
 // Component for showing subcontractor details within a scope
 function ScopeSubcontractorDetails({ scopeName }: { scopeName: string }) {
   const { scopeAggregation } = useData();
+  const [subSearchTerm, setSubSearchTerm] = useState('');
   
   // Get ALL subcontractors for this specific scope, sorted by percentage
   const scopeSubcontractors = scopeAggregation
     .filter(sub => sub.ScopeOfWork === scopeName)
+    .filter(sub => 
+      sub.SubcontractorName.toLowerCase().includes(subSearchTerm.toLowerCase())
+    )
     .sort((a, b) => (b.ShareOfScope || 0) - (a.ShareOfScope || 0));
 
-  if (scopeSubcontractors.length === 0) {
+  const totalSubcontractors = scopeAggregation
+    .filter(sub => sub.ScopeOfWork === scopeName).length;
+
+  if (totalSubcontractors === 0) {
     return (
       <div className="p-4 text-center text-gray-500 dark:text-gray-400">
         No subcontractor data available for this scope.
@@ -32,8 +39,30 @@ function ScopeSubcontractorDetails({ scopeName }: { scopeName: string }) {
           All Subcontractors in {scopeName}
         </h4>
         <span className="text-sm text-gray-500">
-          ({scopeSubcontractors.length} firms)
+          ({subSearchTerm ? `${scopeSubcontractors.length} of ${totalSubcontractors}` : `${totalSubcontractors}`} firms)
         </span>
+      </div>
+      
+      {/* Search field for subcontractors */}
+      <div className="mb-4">
+        <div className="relative">
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+          <input
+            type="text"
+            placeholder="Search subcontractors..."
+            value={subSearchTerm}
+            onChange={(e) => setSubSearchTerm(e.target.value)}
+            className="w-full pl-10 pr-4 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+          />
+          {subSearchTerm && (
+            <button
+              onClick={() => setSubSearchTerm('')}
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          )}
+        </div>
       </div>
       
       <div className="space-y-2 max-h-96 overflow-y-auto">
@@ -66,6 +95,7 @@ export default function ConcentrationPage() {
   const { marketConcentration, isLoading } = useData();
   const [expandedScope, setExpandedScope] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<'spend' | 'hhi'>('spend');
+  const [searchTerm, setSearchTerm] = useState('');
 
   if (isLoading) {
     return (
@@ -188,25 +218,52 @@ export default function ConcentrationPage() {
                 </div>
               </div>
             </CardTitle>
-            <div className="flex items-center justify-between">
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-                {marketConcentration.length} scopes of work analyzed. Click any scope to see subcontractor details.
-              </p>
-              <div className="flex items-center gap-2">
-                <label className="text-sm text-gray-600 dark:text-gray-300">Sort by:</label>
-                <button
-                  onClick={() => setSortBy(sortBy === 'spend' ? 'hhi' : 'spend')}
-                  className="flex items-center gap-1 px-3 py-1 text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
-                >
-                  {sortBy === 'spend' ? 'Total Spend' : 'HHI'}
-                  <ArrowUpDown className="h-3 w-3" />
-                </button>
+            <div className="flex flex-col gap-4">
+              <div className="flex items-center justify-between">
+                <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                  {marketConcentration.length} scopes of work analyzed. Click any scope to see subcontractor details.
+                </p>
+                <div className="flex items-center gap-2">
+                  <label className="text-sm text-gray-600 dark:text-gray-300">Sort by:</label>
+                  <button
+                    onClick={() => setSortBy(sortBy === 'spend' ? 'hhi' : 'spend')}
+                    className="flex items-center gap-1 px-3 py-1 text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
+                  >
+                    {sortBy === 'spend' ? 'Total Spend' : 'HHI'}
+                    <ArrowUpDown className="h-3 w-3" />
+                  </button>
+                </div>
+              </div>
+              
+              {/* Search Field */}
+              <div className="flex items-center gap-2 max-w-md">
+                <div className="relative flex-1">
+                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <input
+                    type="text"
+                    placeholder="Search scopes..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="w-full pl-10 pr-4 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  />
+                </div>
+                {searchTerm && (
+                  <button
+                    onClick={() => setSearchTerm('')}
+                    className="px-3 py-2 text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    Clear
+                  </button>
+                )}
               </div>
             </div>
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
               {marketConcentration
+                .filter(scope => 
+                  scope.ScopeOfWork.toLowerCase().includes(searchTerm.toLowerCase())
+                )
                 .sort((a, b) => {
                   if (sortBy === 'spend') {
                     return (b.ScopeTotalSub || 0) - (a.ScopeTotalSub || 0);

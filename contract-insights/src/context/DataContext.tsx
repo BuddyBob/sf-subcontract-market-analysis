@@ -21,11 +21,19 @@ import {
 } from '@/data/sample-scope-aggregation';
 import { parseNumericValue } from '@/lib/utils';
 
+interface FirmAnalysisType {
+  'Contractor Name': string;
+  Total_Dollars: number;
+  Is_LBE: boolean;
+  Scope_Count: number;
+}
+
 interface DataContextType {
   marketConcentration: MarketConcentrationType[];
   dominantSubcontractors: DominantSubcontractorType[];
   lbeAnalysis: LbeAnalysisType[];
   scopeAggregation: ScopeAggregationType[];
+  firmAnalysis: FirmAnalysisType[];
   isLoading: boolean;
   isUsingFallback: boolean;
 }
@@ -37,6 +45,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [dominantSubcontractors, setDominantSubcontractors] = useState<DominantSubcontractorType[]>(sampleDominantSubcontractors);
   const [lbeAnalysis, setLbeAnalysis] = useState<LbeAnalysisType[]>(sampleLbeAnalysis);
   const [scopeAggregation, setScopeAggregation] = useState<ScopeAggregationType[]>(sampleScopeAggregation);
+  const [firmAnalysis, setFirmAnalysis] = useState<FirmAnalysisType[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isUsingFallback, setIsUsingFallback] = useState(true);
 
@@ -125,6 +134,22 @@ export function DataProvider({ children }: { children: ReactNode }) {
           hasErrors = true;
         }
 
+        // Try to load firm analysis data
+        try {
+          const firmData = await loadCsvData('/data/firm_analysis.csv');
+          if (firmData.length > 0) {
+            // Transform boolean strings to actual booleans
+            const transformedFirmData = firmData.map((firm: any) => ({
+              ...firm,
+              Is_LBE: firm.Is_LBE === 'True' || firm.Is_LBE === true
+            }));
+            setFirmAnalysis(transformedFirmData);
+          }
+        } catch (error) {
+          console.warn('Using fallback firm analysis data');
+          hasErrors = true;
+        }
+
         if (hasErrors) {
           setIsUsingFallback(true);
           toast.error('Full dataset not found, using sample data', {
@@ -158,6 +183,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     dominantSubcontractors,
     lbeAnalysis,
     scopeAggregation,
+    firmAnalysis,
     isLoading,
     isUsingFallback,
   };
