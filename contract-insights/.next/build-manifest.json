@@ -1,31 +1,60 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/s0nv2jqTtfmTUjcyoBb3J/_buildManifest.js",
+    "static/s0nv2jqTtfmTUjcyoBb3J/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/pages/index-4db5a37cce606214.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/css/00940cc0e96765f6.css",
+      "static/chunks/pages/_app-a65da96866672c82.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/pages/_error-ee5b5fb91d29d86f.js"
+    ],
+    "/concentration": [
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/490-8b1ab7db67b45b85.js",
+      "static/chunks/pages/concentration-898fa4b71b1d7884.js"
+    ],
+    "/dominant-firms": [
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/pages/dominant-firms-cbe04ae8ac2e8e99.js"
+    ],
+    "/downloads": [
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/pages/downloads-2c62589bb237548a.js"
     ],
     "/lbe-equity": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/lbe-equity.js"
+      "static/chunks/webpack-9efb116dbf1654cc.js",
+      "static/chunks/framework-bbecb7d54330d002.js",
+      "static/chunks/main-bdfcfc23ca93d033.js",
+      "static/chunks/490-8b1ab7db67b45b85.js",
+      "static/chunks/604-b7104570f2fd64cb.js",
+      "static/chunks/pages/lbe-equity-d0805464c199c488.js"
     ]
   },
   "ampFirstPages": []
