@@ -211,7 +211,8 @@ export default function ConcentrationPage() {
                   if (sortBy === 'spend') {
                     return (b.ScopeTotalSub || 0) - (a.ScopeTotalSub || 0);
                   } else {
-                    return (b.ScopeHHI || 0) - (a.ScopeHHI || 0);
+                    // HHI sorting: ascending (lower HHI = less concentrated = better competition)
+                    return (a.ScopeHHI || 0) - (b.ScopeHHI || 0);
                   }
                 })
                 .map((scope, index) => (

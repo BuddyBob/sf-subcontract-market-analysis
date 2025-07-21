@@ -1,13 +1,16 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useData } from '@/context/DataContext';
 import { formatCurrency, formatPercent, getLbeEquityColor } from '@/lib/utils';
+import { ArrowUpDown, Users, DollarSign, TrendingUp, Building2 } from 'lucide-react';
 
 export default function LbeEquityPage() {
   const { lbeAnalysis, isLoading } = useData();
+  const [sortBy, setSortBy] = useState<'lbeShare' | 'totalSpend' | 'lbeCount' | 'scope'>('lbeShare');
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
 
   if (isLoading) {
     return (
@@ -21,13 +24,22 @@ export default function LbeEquityPage() {
     );
   }
 
-  // Calculate overall LBE statistics
+  // Calculate overall LBE statistics and performance metrics
   const totalDollars = lbeAnalysis.reduce((sum, item) => sum + item.Total_Dollars, 0);
   const totalLbeDollars = lbeAnalysis.reduce(
     (sum, item) => sum + (item.Total_Dollars * item.LBE_Dollar_Share), 
     0
   );
   const overallLbeShare = totalDollars > 0 ? totalLbeDollars / totalDollars : 0;
+
+  // Performance metrics for LBE vs Non-LBE
+  const totalLbeCount = lbeAnalysis.reduce((sum, item) => sum + item.LBE_Count, 0);
+  const totalSubsCount = lbeAnalysis.reduce((sum, item) => sum + item.Total_Subs, 0);
+  const totalNonLbeCount = totalSubsCount - totalLbeCount;
+  const totalNonLbeDollars = totalDollars - totalLbeDollars;
+  
+  const avgLbeContractSize = totalLbeCount > 0 ? totalLbeDollars / totalLbeCount : 0;
+  const avgNonLbeContractSize = totalNonLbeCount > 0 ? totalNonLbeDollars / totalNonLbeCount : 0;
 
   // Prepare donut chart data
   const donutData = [
@@ -168,13 +180,107 @@ export default function LbeEquityPage() {
         </Card>
       </div>
 
+      {/* LBE vs Non-LBE Performance Comparison */}
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <TrendingUp className="h-5 w-5 text-primary-600" />
+            LBE vs Non-LBE Performance Comparison
+          </CardTitle>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
+            Market share, contractor counts, and average contract sizes
+          </p>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Market Share */}
+            <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg">
+              <div className="flex items-center justify-center mb-2">
+                <DollarSign className="h-6 w-6 text-primary-600" />
+              </div>
+              <div className="text-2xl font-bold text-primary-800 dark:text-primary-200">
+                {formatPercent(overallLbeShare)}
+              </div>
+              <div className="text-sm text-primary-600 dark:text-primary-300 font-medium">LBE Market Share</div>
+              <div className="text-xs text-gray-500 mt-1">
+                {formatCurrency(totalLbeDollars)} of {formatCurrency(totalDollars)}
+              </div>
+            </div>
+
+            <div className="text-center p-4 bg-danger-50 dark:bg-danger-900/20 rounded-lg">
+              <div className="flex items-center justify-center mb-2">
+                <DollarSign className="h-6 w-6 text-danger-600" />
+              </div>
+              <div className="text-2xl font-bold text-danger-800 dark:text-danger-200">
+                {formatPercent(1 - overallLbeShare)}
+              </div>
+              <div className="text-sm text-danger-600 dark:text-danger-300 font-medium">Non-LBE Market Share</div>
+              <div className="text-xs text-gray-500 mt-1">
+                {formatCurrency(totalNonLbeDollars)} of {formatCurrency(totalDollars)}
+              </div>
+            </div>
+
+            {/* Contractor Counts */}
+            <div className="text-center p-4 bg-secondary-50 dark:bg-secondary-900/20 rounded-lg">
+              <div className="flex items-center justify-center mb-2">
+                <Users className="h-6 w-6 text-secondary-600" />
+              </div>
+              <div className="text-2xl font-bold text-secondary-800 dark:text-secondary-200">
+                {totalLbeCount}
+              </div>
+              <div className="text-sm text-secondary-600 dark:text-secondary-300 font-medium">LBE Contractors</div>
+              <div className="text-xs text-gray-500 mt-1">
+                {formatPercent(totalLbeCount / totalSubsCount)} of total
+              </div>
+            </div>
+
+            <div className="text-center p-4 bg-warning-50 dark:bg-warning-900/20 rounded-lg">
+              <div className="flex items-center justify-center mb-2">
+                <Users className="h-6 w-6 text-warning-600" />
+              </div>
+              <div className="text-2xl font-bold text-warning-800 dark:text-warning-200">
+                {totalNonLbeCount}
+              </div>
+              <div className="text-sm text-warning-600 dark:text-warning-300 font-medium">Non-LBE Contractors</div>
+              <div className="text-xs text-gray-500 mt-1">
+                {formatPercent(totalNonLbeCount / totalSubsCount)} of total
+              </div>
+            </div>
+          </div>
+
+          
+        </CardContent>
+      </Card>
+
       {/* Comprehensive LBE Participation Table */}
       <Card className="mb-8">
         <CardHeader>
           <CardTitle>All Scopes LBE Participation</CardTitle>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Complete overview of LBE participation across all {lbeAnalysis.length} scopes, sorted by LBE share
-          </p>
+          <div className="flex items-center justify-between">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Complete overview of LBE participation across all {lbeAnalysis.length} scopes
+            </p>
+            <div className="flex items-center gap-2">
+              <label className="text-sm text-gray-600 dark:text-gray-300">Sort by:</label>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as any)}
+                className="text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded px-2 py-1"
+              >
+                <option value="lbeShare">LBE Share</option>
+                <option value="totalSpend">Total Spend</option>
+                <option value="lbeCount">LBE Count</option>
+                <option value="scope">Scope Name</option>
+              </select>
+              <button
+                onClick={() => setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')}
+                className="flex items-center gap-1 px-2 py-1 text-sm bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
+              >
+                <ArrowUpDown className="h-3 w-3" />
+                {sortDirection === 'desc' ? 'Desc' : 'Asc'}
+              </button>
+            </div>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="overflow-x-auto">
@@ -190,7 +296,40 @@ export default function LbeEquityPage() {
               </thead>
               <tbody>
                 {lbeAnalysis
-                  .sort((a, b) => (b.LBE_Dollar_Share || 0) - (a.LBE_Dollar_Share || 0))
+                  .sort((a, b) => {
+                    let valueA, valueB;
+                    switch (sortBy) {
+                      case 'lbeShare':
+                        valueA = a.LBE_Dollar_Share || 0;
+                        valueB = b.LBE_Dollar_Share || 0;
+                        break;
+                      case 'totalSpend':
+                        valueA = a.Total_Dollars || 0;
+                        valueB = b.Total_Dollars || 0;
+                        break;
+                      case 'lbeCount':
+                        valueA = a.LBE_Count || 0;
+                        valueB = b.LBE_Count || 0;
+                        break;
+                      case 'scope':
+                        valueA = a['Scope of Work'];
+                        valueB = b['Scope of Work'];
+                        break;
+                      default:
+                        valueA = a.LBE_Dollar_Share || 0;
+                        valueB = b.LBE_Dollar_Share || 0;
+                    }
+                    
+                    if (typeof valueA === 'string' && typeof valueB === 'string') {
+                      return sortDirection === 'desc' 
+                        ? valueB.localeCompare(valueA)
+                        : valueA.localeCompare(valueB);
+                    }
+                    
+                    return sortDirection === 'desc' 
+                      ? (valueB as number) - (valueA as number)
+                      : (valueA as number) - (valueB as number);
+                  })
                   .map((scope, index) => (
                   <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800">
                     <td className="py-3 px-4 text-gray-900 dark:text-white">
