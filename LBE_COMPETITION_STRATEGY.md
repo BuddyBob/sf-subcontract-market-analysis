@@ -1,8 +1,6 @@
 # LBE Competition Strategy - How to Help Local Business Enterprises Compete
 
-## 🎯 **Executive Summary: LBE Competition Challenges**
-
-The analysis reveals that while **LBEs represent 63.9% of subcontractors**, they capture only **47.5% of subcontract dollars** due to significantly smaller average contract sizes. More critically, **LBEs are completely shut out** of the highest-value trade categories, creating a two-tier market structure.
+The analysis reveals that while **LBEs represent 63.9% of subcontractors**, they capture only **47.5% of subcontract dollars** due to significantly smaller average contract sizes. Also shut out of technical work
 
 ### **Key Findings**:
 - **LBE Contract Size Gap**: Non-LBE firms win contracts **2.0x larger** on average ($833K vs $426K)
@@ -11,12 +9,12 @@ The analysis reveals that while **LBEs represent 63.9% of subcontractors**, they
 
 ---
 
-##  **LBE Performance Analysis**
+##  **LBE Performance **
 
 #### **Participation Rates**:
 - **Prime Contractors**: 78.5% are LBE (strong representation)
 - **Subcontractors**: 63.9% are LBE (good participation)
-- **Dollar Share**: 47.5% of subcontract value (underperforming relative to participation)
+- **Dollar Share**: 47.5% of subcontracts
 
 #### **Size Disparity**:
 - **Average LBE Contract**: $426,212
@@ -29,10 +27,6 @@ The analysis reveals that while **LBEs represent 63.9% of subcontractors**, they
 - **Total Market**: $237.9M
 
 ---
-
-##  **Critical Barriers Identified**
-
-### **1. Complete Exclusion from High-Value Scopes**
 
 **LBEs have 0% participation in:**
 - **Micro Tunneling**: $22.2M (7 non-LBE competitors)
