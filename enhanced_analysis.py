@@ -191,24 +191,24 @@ def analyze_with_consolidation(file_path: str):
         original_hhi = pd.read_csv('analysis_results/04_market_concentration_hhi.csv')
         original_dominant = pd.read_csv('analysis_results/05_dominant_subcontractors.csv')
         
-        print(f"\n📊 SCOPE COUNTS:")
+        print(f"\n SCOPE COUNTS:")
         print(f"  Original scopes: {len(original_hhi)}")
         print(f"  Consolidated scopes: {len(scope_hhi_consolidated)}")
         print(f"  Reduction: {len(original_hhi) - len(scope_hhi_consolidated)} scopes consolidated")
         
-        print(f"\n📊 MARKET CONCENTRATION:")
+        print(f"\n MARKET CONCENTRATION:")
         orig_highly_concentrated = len(original_hhi[original_hhi['ConcentrationLevel'] == 'Highly Concentrated'])
         new_highly_concentrated = len(scope_hhi_consolidated[scope_hhi_consolidated['ConcentrationLevel'] == 'Highly Concentrated'])
         
         print(f"  Original highly concentrated: {orig_highly_concentrated}/{len(original_hhi)} ({orig_highly_concentrated/len(original_hhi)*100:.1f}%)")
         print(f"  Consolidated highly concentrated: {new_highly_concentrated}/{len(scope_hhi_consolidated)} ({new_highly_concentrated/len(scope_hhi_consolidated)*100:.1f}%)")
         
-        print(f"\n📊 DOMINANT SUBCONTRACTORS:")
+        print(f"\n DOMINANT SUBCONTRACTORS:")
         print(f"  Original dominant positions: {len(original_dominant)}")
         print(f"  Consolidated dominant positions: {len(dominant_subs_consolidated)}")
         
         # Show most significant consolidated scopes
-        print(f"\n📊 TOP CONSOLIDATED SCOPES BY DOLLAR VALUE:")
+        print(f"\n TOP CONSOLIDATED SCOPES BY DOLLAR VALUE:")
         top_consolidated = scope_hhi_consolidated.nlargest(10, 'ScopeTotalSub')
         for _, row in top_consolidated.iterrows():
             print(f"  {row['ScopeOfWork']}: ${row['ScopeTotalSub']:,.0f} (HHI: {row['ScopeHHI']:.0f}, {row['NumSubcontractors']} subs)")
@@ -216,7 +216,7 @@ def analyze_with_consolidation(file_path: str):
         # Show AC Paving consolidation specifically
         ac_paving_data = scope_sub_agg_consolidated[scope_sub_agg_consolidated['ScopeOfWork'] == 'AC Paving & Asphalt Work (Consolidated)']
         if not ac_paving_data.empty:
-            print(f"\n🚨 AC PAVING CONSOLIDATION RESULTS:")
+            print(f"\n AC PAVING CONSOLIDATION RESULTS:")
             ac_total = ac_paving_data['ScopeTotalSub'].iloc[0]
             ac_hhi = scope_hhi_consolidated[scope_hhi_consolidated['ScopeOfWork'] == 'AC Paving & Asphalt Work (Consolidated)']['ScopeHHI'].iloc[0]
             ac_subs = len(ac_paving_data)
@@ -255,7 +255,7 @@ def analyze_with_consolidation(file_path: str):
         print(f"""
 After consolidating artificially fragmented scopes, the REALISTIC market structure shows:
 
-📊 MARKET CONCENTRATION BREAKDOWN:
+ MARKET CONCENTRATION BREAKDOWN:
   • Unconcentrated (Competitive): {unconcentrated}/{total} scopes ({unconcentrated/total*100:.1f}%)
   • Moderately Concentrated: {moderate}/{total} scopes ({moderate/total*100:.1f}%)  
   • Highly Concentrated: {high}/{total} scopes ({high/total*100:.1f}%)
@@ -263,7 +263,7 @@ After consolidating artificially fragmented scopes, the REALISTIC market structu
 This is a much more realistic picture than the original 99.6% highly concentrated finding,
 which was skewed by artificial scope fragmentation.
 
-🎯 REAL ISSUES TO ADDRESS:
+ REAL ISSUES TO ADDRESS:
   • Focus on the {high} genuinely highly concentrated trade areas
   • Investigate why even consolidated scopes show concentration
   • Address barriers to entry in the most valuable trade categories

@@ -2,7 +2,7 @@ Contractor Name,Total_Dollars,Is_LBE,Scope_Count
 Ward & Burke Tunneling,23591400.0,False,4
 Cupertino Electric Inc.,18787407.0,False,1
 R&S Construction Management Inc,15533390.0,True,15
-"Ronan Construction, Inc.",12833356.0,True,21
+"Ronan Construction, Inc.",12833355.5,True,21
 Nada Pacific Corporation,10751325.0,False,1
 Roadway Construction Inc.,10363550.0,True,16
 Apex Rockfall Mitigation LLC,7040083.0,False,1
@@ -77,13 +77,13 @@ Bay Line Cutting & Coring Inc,523000.0,True,2
 JR Monterrosa Inc,510000.0,True,2
 Drill Tech Drilling & Shoring,501332.0,False,2
 Sullivan's Concrete Sawing,490000.0,True,5
-Hayward Baker Inc,450000.0,False,1
 San Francisco Transport,450000.0,False,1
+Hayward Baker Inc,450000.0,False,1
 Jeffco Painting & Coating Inc.,448200.0,False,2
 BKF Engineers,440000.0,False,1
 Langan Engineering,407600.0,False,1
 Coastside Service LLC,400000.0,False,2
-Cranon Tucking,350456.0,False,1
+Cranon Tucking,350456.47,False,1
 Watertight Restoration,340000.0,True,2
 Kearney Plumbing,337000.0,True,1
 AAC Glass,333200.0,False,2
@@ -126,21 +126,21 @@ Substructural Support Inc (A Drill Tech Company),119880.0,False,1
 Ahlborn Structural Steel,109200.0,False,1
 Kirk Builders,101672.0,True,1
 SAK Construction,100450.0,False,1
+Geo-Cell Solutions,100000.0,False,1
+Team North Construction Services Inc,100000.0,True,1
 Thomas J's Welding,100000.0,False,1
 Transpac Engineering,100000.0,True,1
-Team North Construction Services Inc,100000.0,True,1
-Geo-Cell Solutions,100000.0,False,1
 San Francisco Roofing Services,92500.0,True,1
 Alex Sweeney Construction,80000.0,True,1
 Interstate Grading and Paving,77331.0,False,1
 "E. Mitchell, Inc.",68175.0,True,1
 The Professional Tree Care Co.,67900.0,False,2
 "Tidal Marine Construction, Inc.",60786.0,False,1
-Cell-crete Corporation,59978.0,False,1
+Cell-crete Corporation,59978.5,False,1
 Con Foam,57000.0,False,1
 Bay-Con Infrastructure,51450.0,False,2
 RES/Russo Environmental Services,50000.0,False,1
-Rhodium Integrated Services,44814.0,False,1
+Rhodium Integrated Services,44813.68,False,1
 Win Structural Consulting,35000.0,True,1
 Ponder Environmental Services,30000.0,False,1
 "Duran & Venables, Inc.",25500.0,False,1

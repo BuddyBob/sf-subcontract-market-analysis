@@ -45,7 +45,7 @@ While LBEs make up 64% of subcontractors, they're **completely excluded** from $
 
 ---
 
-## 📁 **Data Files**
+##  **Data Files**
 
 ### **Market Concentration Analysis** (`consolidated_analysis/`)
 | File | Purpose |

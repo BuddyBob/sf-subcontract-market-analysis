@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/lbe-equity": "pages/lbe-equity.js",
+  "/dominant-firms": "pages/dominant-firms.js",
+  "/concentration": "pages/concentration.js"
+}
