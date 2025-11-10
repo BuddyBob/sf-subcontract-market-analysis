@@ -1,4 +1,6 @@
-# LBE Competition Strategy - How to Help Local Business Enterprises Compete
+# LBE Competition Strategy - How to Help Local Business Enterprises Compete (OUTDATED)
+
+⚠️ **NOTE: This analysis is based on pre-bid data including non-awarded contracts. For current analysis based on awarded contracts only, see README.md**
 
 The analysis reveals that while **LBEs represent 63.9% of subcontractors**, they capture only **47.5% of subcontract dollars** due to significantly smaller average contract sizes. Also shut out of technical work
 

@@ -1,7 +1,11 @@
-# Data Documentation - Column Definitions & File Purpose
+# Data Documentation - Column Definitions & File Purpose (Updated for Awarded Contracts Only)
+
+**All data files now reflect AWARDED CONTRACTS ONLY (Total: $78.2M)**
+
+This documentation describes the CSV files used by the dashboard, all based on awarded subcontracts from 2020 SF construction projects.
 
 
-## `scope_subcontractor_aggregation_consolidated.csv`**
+## `scope_subcontractor_aggregation_consolidated.csv`
 
 **Purpose**: Shows each subcontractor's market position within consolidated trade categories
 

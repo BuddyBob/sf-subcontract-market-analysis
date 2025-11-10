@@ -15,7 +15,7 @@ export default function HomePage() {
               Market Overview
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              The 2020 San Francisco subcontract market analysis reveals significant patterns in market concentration and Local Business Enterprise (LBE) participation across various construction scopes.
+              The San Francisco subcontract market analysis reveals significant patterns in market concentration and Local Business Enterprise (LBE) participation across various construction scopes.
             </p>
             <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
               <li className="flex items-start">

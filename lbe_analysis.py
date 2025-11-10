@@ -1,8 +1,4 @@
-"""
-LBE Competition Analysis - Understanding Barriers and Opportunities
-Analyzes Local Business Enterprise (LBE) participation patterns to identify 
-how to better help LBE firms compete against dominant subcontractors.
-"""
+
 
 import pandas as pd
 import numpy as np
@@ -18,6 +14,13 @@ def analyze_lbe_competition(file_path: str):
     
     # Load and clean data
     df = pd.read_excel(file_path, sheet_name='Contract Info')
+    
+    # CRITICAL: Filter for only awarded contracts
+    print(f"Total records in dataset: {len(df)}")
+    df['Awarded Contract?'] = df['Awarded Contract?'].astype(str).str.strip()
+    df = df[df['Awarded Contract?'] == 'Y'].copy()
+    print(f"Awarded contracts only: {len(df)}")
+    print(f"Filtering to ONLY awarded contracts for accurate analysis.\n")
     
     # Clean monetary columns
     def clean_currency(value):

@@ -62,7 +62,7 @@ export default function DownloadsPage() {
           <CardContent>
             <div className="space-y-4">
               <p className="text-gray-600 dark:text-gray-300">
-                The datasets below contain the complete analysis data for the 2020 San Francisco subcontract market. 
+                The datasets below contain the complete analysis data for the San Francisco subcontract market. 
                 Each file is in CSV format and can be opened in Excel, Google Sheets, or any data analysis tool.
               </p>
               
@@ -89,7 +89,7 @@ export default function DownloadsPage() {
                 <div>
                   <h4 className="font-medium text-gray-900 dark:text-white mb-2">Data Sources</h4>
                   <ul className="space-y-1 text-gray-600 dark:text-gray-300">
-                    <li>• San Francisco Public Works contracts (2020)</li>
+                    <li>• San Francisco Public Works contracts</li>
                     <li>• LBE certification records</li>
                     <li>• Subcontractor award data</li>
                   </ul>

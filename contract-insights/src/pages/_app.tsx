@@ -13,8 +13,8 @@ function AppContent({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>SF Contract Insights - 2020 Subcontract Market Analysis</title>
-        <meta name="description" content="Interactive dashboard analyzing market concentration, LBE equity, and dominant firm patterns in San Francisco's 2020 subcontract marketplace." />
+        <title>SF Contract Insights - Subcontract Market Analysis</title>
+        <meta name="description" content="Interactive dashboard analyzing market concentration, LBE equity, and dominant firm patterns in San Francisco's subcontract marketplace." />
         <meta name="keywords" content="San Francisco, subcontract, market analysis, LBE, equity, concentration, dashboard" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

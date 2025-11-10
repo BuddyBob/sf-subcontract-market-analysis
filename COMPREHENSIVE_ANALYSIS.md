@@ -1,4 +1,6 @@
-# 2020 Pre-Bid Data Analysis - Comprehensive Market Concentration Study
+# 2020 Pre-Bid Data Analysis - Comprehensive Market Concentration Study (OUTDATED)
+
+ **NOTE: This analysis includes ALL bidding data ($238.9M), not just awarded contracts ($78.2M). For current analysis based on awarded contracts only, see README.md**
 
 This analysis reveals **significant market concentration** in San Francisco's construction subcontracting market. After correcting for artificially fragmented scope definitions, **95.7% of trade categories remain highly concentrated**, indicating systemic competition problems that require immediate regulatory attention.
 
